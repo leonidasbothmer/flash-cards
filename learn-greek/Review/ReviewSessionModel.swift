@@ -8,7 +8,7 @@ struct StackTransferEvent: Equatable {
 }
 
 @MainActor
-final class ReviewSessionViewModel: ObservableObject {
+final class ReviewSessionModel: ObservableObject {
     @Published private(set) var items: [VocabItem] = []
     @Published private(set) var progressByID: [String: VocabProgress] = [:]
     @Published var currentCard: VocabCardState?
