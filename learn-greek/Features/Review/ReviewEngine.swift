@@ -21,34 +21,43 @@ enum ReviewEngine {
     ]
 
     static func pickNextItem(
-        items: [VocabItem],
-        progressByID: [String: VocabProgress]
-    ) -> VocabCardState? {
-        guard !items.isEmpty else { return nil }
-
-        var bucketByStack: [LearningStack: [VocabItem]] = [:]
-        for item in items {
-            let progress = progressByID[item.id] ?? .initial
-            bucketByStack[progress.stack, default: []].append(item)
-        }
+        items: [CardNote],
+        progressByID: [String: CardProgress]
+    ) -> ReviewCardState? {
+        let buckets = bucketsByStack(items: items, progressByID: progressByID)
 
         let activeWeights = weightedStacks.compactMap { entry -> StackWeight? in
-            guard let bucket = bucketByStack[entry.stack], !bucket.isEmpty else { return nil }
+            guard let bucket = buckets[entry.stack], !bucket.isEmpty else { return nil }
             return entry
         }
 
-        guard let chosenStack = weightedChoice(activeWeights)?.stack,
-              let candidates = bucketByStack[chosenStack],
-              let item = candidates.randomElement()
-        else { return nil }
+        guard let chosenStack = weightedChoice(activeWeights)?.stack else { return nil }
+        return pickItem(from: chosenStack, items: items, progressByID: progressByID)
+    }
 
-        return VocabCardState(item: item, progress: progressByID[item.id] ?? .initial)
+    static func pickItem(
+        from stack: LearningStack,
+        items: [CardNote],
+        progressByID: [String: CardProgress],
+        excluding excludedID: String? = nil
+    ) -> ReviewCardState? {
+        let candidates = items.filter { note in
+            let progress = progressByID[note.id] ?? .initial
+            return progress.stack == stack && note.id != excludedID
+        }
+
+        let fallbackCandidates = items.filter { note in
+            (progressByID[note.id] ?? .initial).stack == stack
+        }
+
+        guard let note = (candidates.isEmpty ? fallbackCandidates : candidates).randomElement() else { return nil }
+        return ReviewCardState(note: note, progress: progressByID[note.id] ?? .initial)
     }
 
     static func apply(
         result: ReviewResult,
-        to progress: VocabProgress
-    ) -> VocabProgress {
+        to progress: CardProgress
+    ) -> CardProgress {
         var next = progress
         next.lastSeenAt = Date()
 
@@ -79,15 +88,27 @@ enum ReviewEngine {
     }
 
     static func countsByStack(
-        items: [VocabItem],
-        progressByID: [String: VocabProgress]
+        items: [CardNote],
+        progressByID: [String: CardProgress]
     ) -> [LearningStack: Int] {
         var counts = Dictionary(uniqueKeysWithValues: LearningStack.allCases.map { ($0, 0) })
-        for item in items {
-            let stack = (progressByID[item.id] ?? .initial).stack
+        for note in items {
+            let stack = (progressByID[note.id] ?? .initial).stack
             counts[stack, default: 0] += 1
         }
         return counts
+    }
+
+    private static func bucketsByStack(
+        items: [CardNote],
+        progressByID: [String: CardProgress]
+    ) -> [LearningStack: [CardNote]] {
+        var buckets: [LearningStack: [CardNote]] = [:]
+        for note in items {
+            let progress = progressByID[note.id] ?? .initial
+            buckets[progress.stack, default: []].append(note)
+        }
+        return buckets
     }
 
     private static func weightedChoice(_ entries: [StackWeight]) -> StackWeight? {

@@ -10,9 +10,6 @@ struct ReviewEditView: View {
     @Binding var draftFrontText: String
     @Binding var draftBackText: String
     let isKeyboardFocusRequested: Bool
-    let isSaveEnabled: Bool
-    let onCancel: () -> Void
-    let onSave: () -> Void
 
     @FocusState private var focusedField: ReviewEditField?
 
@@ -43,25 +40,6 @@ struct ReviewEditView: View {
             .padding(.vertical, 32)
         }
         .contentShape(RoundedRectangle(cornerRadius: 28, style: .continuous))
-        .toolbar {
-            ToolbarItemGroup(placement: .keyboard) {
-                keyboardButton(systemName: "xmark", action: onCancel)
-
-                Spacer(minLength: 8)
-
-                Text(isBackSide ? "Back" : "Front")
-                    .font(.system(size: 11, weight: .semibold, design: .rounded))
-                    .foregroundStyle(.secondary)
-                    .padding(.horizontal, 12)
-                    .frame(height: 26)
-                    .background(.quaternary, in: Capsule())
-
-                Spacer(minLength: 8)
-
-                keyboardButton(systemName: "rectangle.portrait.rotate", action: flipSide)
-                keyboardButton(systemName: "checkmark", isEnabled: isSaveEnabled, action: onSave)
-            }
-        }
         .onAppear {
             updateFocus()
         }
@@ -83,41 +61,19 @@ struct ReviewEditView: View {
                     .padding(.horizontal, 24)
             }
 
-            TextEditor(text: text)
+            TextField("", text: text, axis: .vertical)
                 .font(.system(size: 38, weight: .semibold, design: .rounded))
                 .foregroundStyle(.black)
                 .multilineTextAlignment(.center)
-                .scrollContentBackground(.hidden)
-                .background(Color.clear)
+                .lineLimit(1...8)
+                .textFieldStyle(.plain)
                 .textInputAutocapitalization(.never)
                 .autocorrectionDisabled()
                 .focused($focusedField, equals: field)
                 .opacity(text.wrappedValue.isEmpty ? 0.14 : 1)
+                .fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
-
-    private func keyboardButton(
-        systemName: String,
-        isEnabled: Bool = true,
-        action: @escaping () -> Void
-    ) -> some View {
-        Button(action: action) {
-            Image(systemName: systemName)
-                .font(.system(size: 17, weight: .semibold))
-                .foregroundStyle(.primary.opacity(isEnabled ? 1 : 0.35))
-                .frame(width: 32, height: 32)
-        }
-        .buttonStyle(.plain)
-        .disabled(!isEnabled)
-    }
-
-    private func flipSide() {
-        var transaction = Transaction()
-        transaction.disablesAnimations = true
-        withTransaction(transaction) {
-            isBackSide.toggle()
-        }
     }
 
     private func updateFocus() {

@@ -2,7 +2,6 @@ import SwiftUI
 
 struct CardMotionModifier: ViewModifier {
     let entryScale: CGFloat
-    let editTransitionScale: CGFloat
     let pressShrinkScale: CGFloat
     let pressShrinkAnchor: UnitPoint
     let dragRollDegrees: Double
@@ -28,7 +27,6 @@ struct CardMotionModifier: ViewModifier {
 
         content
             .scaleEffect(activeEntryScale, anchor: .center)
-            .scaleEffect(editTransitionScale, anchor: .center)
             .scaleEffect(activePressShrinkScale, anchor: pressShrinkAnchor)
             .rotationEffect(.degrees(activeDragRollDegrees + cancelShakeDegrees))
             .rotation3DEffect(

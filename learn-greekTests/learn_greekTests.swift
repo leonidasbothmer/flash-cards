@@ -18,7 +18,7 @@ struct learn_greekTests {
     }
 
     @Test func twoCorrectAnswersPromoteSeenCard() {
-        let progress = VocabProgress(stack: .seen, correctStreak: 1, lastSeenAt: nil)
+        let progress = CardProgress(stack: .seen, correctStreak: 1, lastSeenAt: nil)
         let updated = ReviewEngine.apply(result: .correct, to: progress)
 
         #expect(updated.stack == .once)
@@ -26,8 +26,8 @@ struct learn_greekTests {
     }
 
     @Test func wrongAnswerDemotesButNotBelowSeen() {
-        let seen = VocabProgress(stack: .seen, correctStreak: 1, lastSeenAt: nil)
-        let know = VocabProgress(stack: .know, correctStreak: 1, lastSeenAt: nil)
+        let seen = CardProgress(stack: .seen, correctStreak: 1, lastSeenAt: nil)
+        let know = CardProgress(stack: .know, correctStreak: 1, lastSeenAt: nil)
 
         let seenUpdated = ReviewEngine.apply(result: .wrong, to: seen)
         let knowUpdated = ReviewEngine.apply(result: .wrong, to: know)
@@ -36,29 +36,61 @@ struct learn_greekTests {
         #expect(knowUpdated.stack == .good)
     }
 
-    @Test func dataStoreMapsEnglishAndGermanFallbacks() throws {
+    @Test func pickItemFromSpecificStackOnlyReturnsThatStack() throws {
+        let newNote = CardNote(id: "new", cardType: .genericV1, facets: [CardFacetKey.front: ["new"]])
+        let seenNote = CardNote(id: "seen", cardType: .genericV1, facets: [CardFacetKey.front: ["seen"]])
+        let progressByID = [
+            newNote.id: CardProgress(stack: .new, correctStreak: 0, lastSeenAt: nil),
+            seenNote.id: CardProgress(stack: .seen, correctStreak: 0, lastSeenAt: nil)
+        ]
+
+        let selected = try #require(ReviewEngine.pickItem(
+            from: .seen,
+            items: [newNote, seenNote],
+            progressByID: progressByID
+        ))
+
+        #expect(selected.id == seenNote.id)
+        #expect(selected.progress.stack == .seen)
+    }
+
+    @Test func pickItemFromSpecificStackCanExcludeCurrentCard() throws {
+        let first = CardNote(id: "first", cardType: .genericV1, facets: [CardFacetKey.front: ["first"]])
+        let second = CardNote(id: "second", cardType: .genericV1, facets: [CardFacetKey.front: ["second"]])
+        let progressByID = [
+            first.id: CardProgress(stack: .seen, correctStreak: 0, lastSeenAt: nil),
+            second.id: CardProgress(stack: .seen, correctStreak: 0, lastSeenAt: nil)
+        ]
+
+        let selected = try #require(ReviewEngine.pickItem(
+            from: .seen,
+            items: [first, second],
+            progressByID: progressByID,
+            excluding: first.id
+        ))
+
+        #expect(selected.id == second.id)
+    }
+
+    @Test func dataStoreLoadsSimpleFrontBackJSON() throws {
         let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString + ".json")
         defer { try? FileManager.default.removeItem(at: url) }
 
         let json = """
         [
-          {
-            "id": "sample",
-            "greek": "νερό",
-            "lemma": "νερό",
-            "pos": "noun",
-            "english": "water",
-            "german": ["Wasser"]
-          }
+          { "front": "νερό", "back": "water" },
+          { "front": "βιβλίο", "back": "book" }
         ]
         """
 
         try json.write(to: url, atomically: true, encoding: .utf8)
 
-        let items = try VocabDataStore.loadVocab(from: url)
+        let notes = try BundledCardCatalogLoader.loadCatalog(from: url)
 
-        #expect(items.count == 1)
-        #expect(items[0].english == ["water"])
-        #expect(items[0].german == ["Wasser"])
+        #expect(notes.count == 2)
+        #expect(notes[0].cardType == .genericV1)
+        #expect(notes[0].facets[CardFacetKey.front] == ["νερό"])
+        #expect(notes[0].facets[CardFacetKey.back] == ["water"])
+        #expect(notes[1].id == "seed.2")
     }
 }

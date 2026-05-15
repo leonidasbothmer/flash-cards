@@ -18,9 +18,11 @@ struct AdaptiveCardText: View {
 
     var body: some View {
         GeometryReader { proxy in
+            let safeWidth = max(proxy.size.width, 1)
+            let safeHeight = max(proxy.size.height, 1)
             let limitSize = CGSize(
-                width: proxy.size.width * 0.75,
-                height: proxy.size.height * 0.75
+                width: safeWidth * 0.75,
+                height: safeHeight * 0.75
             )
             let fontSize = fittingFontSize(for: text, in: limitSize)
 
@@ -59,13 +61,19 @@ struct AdaptiveCardText: View {
             with: CGSize(width: constrainedWidth, height: CGFloat.greatestFiniteMagnitude),
             options: [.usesLineFragmentOrigin, .usesFontLeading],
             attributes: [
-                .font: UIFont.systemFont(ofSize: fontSize, weight: .semibold),
+                .font: roundedFont(ofSize: fontSize),
                 .paragraphStyle: paragraph
             ],
             context: nil
         )
 
         return CGSize(width: ceil(rect.width), height: ceil(rect.height))
+    }
+
+    private func roundedFont(ofSize fontSize: CGFloat) -> UIFont {
+        let descriptor = UIFont.systemFont(ofSize: fontSize, weight: .semibold).fontDescriptor
+        let roundedDescriptor = descriptor.withDesign(.rounded) ?? descriptor
+        return UIFont(descriptor: roundedDescriptor, size: fontSize)
     }
 }
 

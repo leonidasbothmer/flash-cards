@@ -15,7 +15,7 @@ struct ReviewStreakSunriseBackground: View {
     }
 
     private var emberProgress: CGFloat {
-        smoothStep(min(max((CGFloat(correctStreak) - 10) / 10, 0), 1))
+        smoothStep(min(max((CGFloat(correctStreak) - 15) / 5, 0), 1))
     }
 
     private var redShift: CGFloat {
@@ -56,7 +56,7 @@ struct ReviewStreakSunriseBackground: View {
             }
         }
         .animation(.easeInOut(duration: 0.75), value: correctStreak)
-        .animation(.easeOut(duration: 0.9), value: breakAnimation)
+        .animation(.easeOut(duration: 0.52), value: breakAnimation)
         .animation(.spring(response: 0.22, dampingFraction: 0.86), value: translation)
         .ignoresSafeArea()
     }
@@ -127,7 +127,7 @@ struct ReviewStreakSunriseBackground: View {
     }
 
     private func collapsingFire(event: StreakBreakAnimation, time: TimeInterval) -> some View {
-        let previousProgress = smoothStep(min(max((CGFloat(event.previousStreak) - 10) / 10, 0), 1))
+        let previousProgress = smoothStep(min(max((CGFloat(event.previousStreak) - 15) / 5, 0), 1))
         return outOfFocusFlames(time: time, progress: previousProgress, collapse: 1)
             .id(event.token)
             .transition(.identity)
