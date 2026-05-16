@@ -23,7 +23,7 @@ private struct AppLaunchView: View {
     var body: some View {
         ZStack {
             ReviewView()
-                .onPreferenceChange(CardFramePreferenceKey.self) { frame in
+                .onPreferenceChange(LaunchCardFramePreferenceKey.self) { frame in
                     launchCardFrame = frame
                 }
 
@@ -33,10 +33,11 @@ private struct AppLaunchView: View {
                     .zIndex(1)
             }
         }
+        .coordinateSpace(name: "launchSpace")
         .task {
-            try? await Task.sleep(for: .seconds(2.0))
+            try? await Task.sleep(for: .seconds(1.09))
 
-            withAnimation(.easeInOut(duration: 0.42)) {
+            withAnimation(.easeInOut(duration: 0.09)) {
                 isSplashVisible = false
             }
         }

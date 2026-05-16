@@ -4,19 +4,21 @@ struct SplashScreenView: View {
     let targetCardFrame: CGRect?
 
     private let startDate = Date()
-    private let loadingHoldDuration: TimeInterval = 0.42
-    private let growthDuration: TimeInterval = 1.58
-    private let baseSpinDegreesPerSecond = 92.0
-    private let finalSpinDegrees = 900.0
+    private let loadingHoldDuration: TimeInterval = 0.21
+    private let growthDuration: TimeInterval = 0.74
+    private let settleDuration: TimeInterval = 0.1
+    private let baseSpinDegreesPerSecond = 82.0
+    private let finalSpinDegrees = 360.0
 
     var body: some View {
-        TimelineView(.animation) { timeline in
+        TimelineView(.animation(minimumInterval: nil, paused: false)) { timeline in
             let elapsed = timeline.date.timeIntervalSince(startDate)
-            let growthPhase = min(max((elapsed - loadingHoldDuration) / growthDuration, 0), 1)
+            let activeElapsed = max(elapsed - loadingHoldDuration, 0)
+            let growthPhase = min(max(activeElapsed / growthDuration, 0), 1)
+            let settlePhase = min(max((activeElapsed - growthDuration) / settleDuration, 0), 1)
             let growthProgress = exponentialEaseIn(growthPhase)
             let backgroundOpacity = 1 - growthProgress
-            let spinDegrees = spinDegrees(elapsed: elapsed, growthPhase: growthPhase)
-            let reboundScale = reboundScale(for: growthPhase)
+            let spinDegrees = spinDegrees(elapsed: elapsed, growthPhase: growthPhase, settlePhase: settlePhase)
 
             GeometryReader { proxy in
                 let targetFrame = targetCardFrame.flatMap { $0.isEmpty ? nil : $0 } ?? reviewCardFrame(for: proxy)
@@ -38,7 +40,6 @@ struct SplashScreenView: View {
                         cornerRadius: cornerRadius
                     )
                     .frame(width: cardWidth, height: cardHeight)
-                    .scaleEffect(reboundScale)
                     .position(x: cardX, y: cardY)
                     .shadow(
                         color: Color(red: 0.23, green: 0.08, blue: 0.31).opacity(0.18),
@@ -75,32 +76,21 @@ struct SplashScreenView: View {
         return pow(value, 2.35)
     }
 
-    private func reboundScale(for growthPhase: Double) -> CGFloat {
-        guard growthPhase > 0.78, growthPhase < 1 else { return 1 }
-
-        let phase = (growthPhase - 0.78) / 0.22
-        let primary = sin(phase * .pi)
-        let settle = sin(phase * .pi * 2)
-        return 1 + CGFloat(0.075 * primary - 0.022 * settle * (1 - phase))
+    private func spinReboundDegrees(for settlePhase: Double) -> Double {
+        guard settlePhase > 0, settlePhase < 1 else { return 0 }
+        return 2 * sin(settlePhase * .pi)
     }
 
-    private func spinReboundDegrees(for growthPhase: Double) -> Double {
-        guard growthPhase > 0.78, growthPhase < 1 else { return 0 }
-
-        let phase = (growthPhase - 0.78) / 0.22
-        return 24 * sin(phase * .pi) - 8 * sin(phase * .pi * 2) * (1 - phase)
-    }
-
-    private func spinDegrees(elapsed: TimeInterval, growthPhase: Double) -> Double {
+    private func spinDegrees(elapsed: TimeInterval, growthPhase: Double, settlePhase: Double) -> Double {
         let holdElapsed = min(elapsed, loadingHoldDuration)
         let holdDegrees = holdElapsed * baseSpinDegreesPerSecond
-        guard growthPhase > 0 else { return holdDegrees }
+        guard growthPhase > 0 else { return elapsed * baseSpinDegreesPerSecond }
 
-        let activeLinearProgress = 0.26 * growthPhase
-        let activeAcceleratingProgress = 0.74 * exponentialEaseIn(growthPhase)
+        let activeLinearProgress = 0.28 * growthPhase
+        let activeAcceleratingProgress = 0.72 * exponentialEaseIn(growthPhase)
         let activeProgress = min(activeLinearProgress + activeAcceleratingProgress, 1)
         let targetDegrees = holdDegrees + (finalSpinDegrees - holdDegrees) * activeProgress
-        return targetDegrees + spinReboundDegrees(for: growthPhase)
+        return targetDegrees + spinReboundDegrees(for: settlePhase)
     }
 
     private func lerp(_ start: CGFloat, _ end: CGFloat, _ progress: Double) -> CGFloat {

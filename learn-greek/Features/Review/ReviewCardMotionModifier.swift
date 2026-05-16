@@ -21,7 +21,6 @@ struct CardMotionModifier: ViewModifier {
         let activeDragRollDegrees = isEditing ? 0 : dragRollDegrees
         let activePressTiltXDegrees = isEditing ? 0 : pressTiltXDegrees
         let activePressTiltYDegrees = isEditing ? 0 : pressTiltYDegrees
-        let activeFlipRotation = isEditing ? 0 : flipRotation
         let activeTranslation = isEditing ? .zero : translation
         let activeEntryOffset = isEditing ? .zero : entryOffset
 
@@ -42,7 +41,7 @@ struct CardMotionModifier: ViewModifier {
                 perspective: 0.9
             )
             .rotation3DEffect(
-                .degrees(activeFlipRotation),
+                .degrees(flipRotation),
                 axis: flipAxis,
                 perspective: 0.9
             )

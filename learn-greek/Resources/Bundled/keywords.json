@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "keywords": [
+    { "id": "grammar", "label": "Grammar" },
+    { "id": "core", "label": "Core vocabulary" },
+    { "id": "people", "label": "People" },
+    { "id": "body", "label": "Body" },
+    { "id": "food", "label": "Food & drink" },
+    { "id": "home", "label": "Home" },
+    { "id": "nature", "label": "Nature" },
+    { "id": "time", "label": "Time" },
+    { "id": "place", "label": "Places" },
+    { "id": "travel", "label": "Travel" },
+    { "id": "work", "label": "Work" },
+    { "id": "emotion", "label": "Feelings" },
+    { "id": "description", "label": "Descriptions" },
+    { "id": "action", "label": "Actions" },
+    { "id": "education", "label": "Education" },
+    { "id": "daily-life", "label": "Daily life" }
+  ]
+}

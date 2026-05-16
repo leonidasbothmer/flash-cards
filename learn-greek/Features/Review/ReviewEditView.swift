@@ -10,6 +10,7 @@ struct ReviewEditView: View {
     @Binding var draftFrontText: String
     @Binding var draftBackText: String
     let isKeyboardFocusRequested: Bool
+    let isBackFaceVisible: Bool
 
     @FocusState private var focusedField: ReviewEditField?
 
@@ -25,16 +26,17 @@ struct ReviewEditView: View {
                     prompt: "Front",
                     field: .front
                 )
-                .opacity(isBackSide ? 0 : 1)
-                .allowsHitTesting(!isBackSide)
+                .opacity(isBackFaceVisible ? 0 : 1)
+                .allowsHitTesting(!isBackFaceVisible)
 
                 editor(
                     text: $draftBackText,
                     prompt: "Back",
                     field: .back
                 )
-                .opacity(isBackSide ? 1 : 0)
-                .allowsHitTesting(isBackSide)
+                .modifier(BackFaceTilt())
+                .opacity(isBackFaceVisible ? 1 : 0)
+                .allowsHitTesting(isBackFaceVisible)
             }
             .padding(.horizontal, 28)
             .padding(.vertical, 32)
@@ -44,6 +46,9 @@ struct ReviewEditView: View {
             updateFocus()
         }
         .onChange(of: isBackSide) { _, _ in
+            updateFocus()
+        }
+        .onChange(of: isBackFaceVisible) { _, _ in
             updateFocus()
         }
         .onChange(of: isKeyboardFocusRequested) { _, _ in
@@ -81,6 +86,6 @@ struct ReviewEditView: View {
     }
 
     private var activeField: ReviewEditField {
-        isBackSide ? .back : .front
+        isBackFaceVisible ? .back : .front
     }
 }

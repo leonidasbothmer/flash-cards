@@ -3,10 +3,12 @@ import SwiftUI
 struct ReviewToolbar: View {
     let hasCurrentCard: Bool
     @Binding var isStreakFireEnabled: Bool
+    @Binding var isBackSideFirst: Bool
     let onFocus: () -> Void
     let onDelete: () -> Void
     let onEdit: () -> Void
     let onAdd: () -> Void
+    let onBatchAdd: () -> Void
 
     private let toolbarControlSize: CGFloat = 48
 
@@ -16,10 +18,14 @@ struct ReviewToolbar: View {
     }
 
     private var bottomToolbar: some View {
-        HStack {
-            optionsMenu
+        ZStack {
+            HStack {
+                optionsMenu
 
-            Spacer(minLength: 24)
+                Spacer(minLength: 24)
+
+                addButton
+            }
 
             HStack(spacing: 0) {
                 toolbarIconButton(systemName: "trash", isEnabled: hasCurrentCard, action: onDelete)
@@ -34,17 +40,6 @@ struct ReviewToolbar: View {
                     )
 
                 toolbarIconButton(systemName: "pencil", isEnabled: hasCurrentCard, action: onEdit)
-
-                toolbarIconButton(systemName: "plus", action: onAdd)
-                    .background(
-                        GeometryReader { proxy in
-                            Color.clear
-                                .preference(
-                                    key: AddButtonFramePreferenceKey.self,
-                                    value: proxy.frame(in: .named("reviewSpace"))
-                                )
-                        }
-                    )
             }
             .frame(height: toolbarControlSize)
             .padding(.horizontal, 4)
@@ -55,12 +50,35 @@ struct ReviewToolbar: View {
         }
     }
 
+    private var addButton: some View {
+        ContextMenuPlusButtonRepresentable(
+            onAdd: onAdd,
+            onBatchAdd: onBatchAdd,
+            controlSize: toolbarControlSize
+        )
+        .background(
+            GeometryReader { proxy in
+                Color.clear
+                    .preference(
+                        key: AddButtonFramePreferenceKey.self,
+                        value: proxy.frame(in: .named("reviewSpace"))
+                    )
+            }
+        )
+        .glassEffect(
+            .regular.tint(.clear).interactive(),
+            in: Circle()
+        )
+    }
+
     private var optionsMenu: some View {
         Menu {
             Button("Focus Mode", systemImage: "eye.slash") {
                 onFocus()
             }
             .disabled(!hasCurrentCard)
+
+            Toggle("Show Back First", systemImage: "rectangle.on.rectangle.angled", isOn: $isBackSideFirst)
 
             Toggle("Streak Fire", systemImage: "flame", isOn: $isStreakFireEnabled)
         } label: {

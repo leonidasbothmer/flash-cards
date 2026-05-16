@@ -9,6 +9,7 @@ struct StatPill: View {
     let outwardPulse: CGFloat
     let isDropTargeted: Bool
     let showsCurrentCardIndicator: Bool
+    let isLocked: Bool
 
     var body: some View {
         let sourceScale = 1 - (0.12 * inwardPulse)
@@ -18,15 +19,15 @@ struct StatPill: View {
         VStack(spacing: 4) {
             Text(shortNumber(count))
                 .font(.system(size: 16, weight: .bold, design: .rounded))
-                .foregroundStyle(color.opacity(0.9))
+                .foregroundStyle(isLocked ? lockedForegroundColor : color.opacity(0.9))
                 .frame(width: 52, height: 52)
                 .background(tileFrameReader)
                 .background {
                     RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .fill(Color(UIColor.systemGray6))
+                        .fill(isLocked ? color : Color(UIColor.systemGray6))
                         .overlay {
                             RoundedRectangle(cornerRadius: 12, style: .continuous)
-                                .fill(color.opacity(0.24))
+                                .fill(color.opacity(isLocked ? 0 : 0.24))
                         }
                         .overlay {
                             RoundedRectangle(cornerRadius: 12, style: .continuous)
@@ -37,10 +38,9 @@ struct StatPill: View {
                                 .padding(1.5)
                         }
                         .overlay(alignment: .bottom) {
-                            Circle()
-                                .fill(color.opacity(showsCurrentCardIndicator ? 0.95 : 0))
-                                .frame(width: 4, height: 4)
-                                .padding(.bottom, 10)
+                            currentStackMarker
+                                .opacity(showsCurrentCardIndicator ? 0.95 : 0)
+                                .padding(.bottom, 9)
                         }
                         .scaleEffect(
                             x: sourceScale * destinationScale * dropTargetScale,
@@ -59,6 +59,39 @@ struct StatPill: View {
                 .foregroundStyle(color)
         }
         .animation(.spring(response: 0.18, dampingFraction: 0.84), value: isDropTargeted)
+        .animation(.spring(response: 0.24, dampingFraction: 0.78), value: isLocked)
+    }
+
+    @ViewBuilder
+    private var currentStackMarker: some View {
+        if isLocked {
+            Image(systemName: "lock.fill")
+                .font(.system(size: 8.8, weight: .bold))
+                .foregroundStyle(lockedForegroundColor)
+                .frame(width: 10.8, height: 10.8, alignment: .center)
+                .offset(y: 4)
+        } else {
+            Circle()
+                .fill(color)
+                .frame(width: 4, height: 4)
+        }
+    }
+
+    private var lockedForegroundColor: Color {
+        switch stack {
+        case .new:
+            return Color(red: 0.88, green: 0.82, blue: 0.98)
+        case .seen:
+            return Color(red: 1.00, green: 0.82, blue: 0.82)
+        case .once:
+            return Color(red: 1.00, green: 0.88, blue: 0.70)
+        case .solid:
+            return Color(red: 1.00, green: 0.98, blue: 0.72)
+        case .good:
+            return Color(red: 0.80, green: 0.94, blue: 0.82)
+        case .know:
+            return Color(red: 0.80, green: 0.88, blue: 1.00)
+        }
     }
 
     private func shortNumber(_ value: Int) -> String {

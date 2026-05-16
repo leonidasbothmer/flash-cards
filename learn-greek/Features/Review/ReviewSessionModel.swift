@@ -16,6 +16,7 @@ final class ReviewSessionModel: ObservableObject {
     @Published private(set) var lastStackTransfer: StackTransferEvent?
     @Published private(set) var correctSwipeStreak: Int = 0
     @Published private(set) var streakBreakEvent: StreakBreakEvent?
+    @Published private(set) var lockedStack: LearningStack?
 
     private let repository = ProgressRepository()
     private let overrideRepository = CardOverrideRepository()
@@ -52,6 +53,14 @@ final class ReviewSessionModel: ObservableObject {
 
         currentCard = nextCard
         cardPresentationID &+= 1
+    }
+
+    func lockStack(_ stack: LearningStack) {
+        lockedStack = stack
+    }
+
+    func unlockStack() {
+        lockedStack = nil
     }
 
     func moveCurrentCard(to stack: LearningStack) {
@@ -157,6 +166,24 @@ final class ReviewSessionModel: ObservableObject {
         addNote(newNote)
     }
 
+    func addNotes(_ notes: [CardNote]) {
+        guard !notes.isEmpty else { return }
+
+        userNotes.append(contentsOf: notes)
+        userLibrary.save(userNotes)
+        items.append(contentsOf: notes)
+
+        for note in notes {
+            progressByID[note.id] = .initial
+        }
+        repository.save(progressByID)
+
+        if let last = notes.last {
+            currentCard = ReviewCardState(note: last, progress: .initial)
+        }
+        cardPresentationID &+= 1
+    }
+
     func deleteCurrentCard() {
         guard let card = currentCard else { return }
 
@@ -207,6 +234,21 @@ final class ReviewSessionModel: ObservableObject {
     }
 
     private func moveToNextCard() {
+        if let lockedStack {
+            if let lockedCard = ReviewEngine.pickItem(
+                from: lockedStack,
+                items: items,
+                progressByID: progressByID,
+                excluding: currentCard?.id
+            ) {
+                currentCard = lockedCard
+                cardPresentationID &+= 1
+                return
+            }
+
+            self.lockedStack = nil
+        }
+
         currentCard = ReviewEngine.pickNextItem(items: items, progressByID: progressByID)
         cardPresentationID &+= 1
     }

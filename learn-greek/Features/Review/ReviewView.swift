@@ -12,6 +12,7 @@ struct ReviewView: View {
     @StateObject private var viewModel = ReviewSessionModel()
     @State private var isFocusMode = false
     @State private var isStreakFireEnabled = true
+    @AppStorage("review.showBackFirst") private var isBackSideFirst = false
     @State private var isFocusDisclaimerVisible = true
     @State private var focusDisclaimerHideTask: Task<Void, Never>?
     @State private var translation: CGSize = .zero
@@ -20,13 +21,15 @@ struct ReviewView: View {
     @State private var touchMoved = false
     @State private var isCommittingSwipe = false
     @State private var isEditing = false
+    @State private var isEditViewPresented = false
+    @State private var isBatchAdding = false
     @State private var isDeleteConfirmationPresented = false
     @State private var draftFrontText = ""
     @State private var draftBackText = ""
     @State private var draftCard: ReviewCardState?
     @State private var isAddingNewCard = false
     @State private var isEditKeyboardFocusRequested = false
-    @State private var editTransitionTask: Task<Void, Never>?
+    @State private var editCloseTask: Task<Void, Never>?
     @State private var editReservedKeyboardHeight: CGFloat = 0
     @State private var lastObservedKeyboardHeight: CGFloat = 0
     @State private var observedScreenHeight: CGFloat = 0
@@ -34,6 +37,7 @@ struct ReviewView: View {
     @State private var backFlipAxisTiltDegrees = Double.random(in: -2 ... 2)
     @State private var activeFlipAxisTiltDegrees = Double.random(in: -2 ... 2)
     @State private var stackFrames: [LearningStack: CGRect] = [:]
+    @State private var reviewViewportSize: CGSize = .zero
     @State private var cardFrame: CGRect = .zero
     @State private var addButtonFrame: CGRect = .zero
     @State private var trashButtonFrame: CGRect = .zero
@@ -62,6 +66,7 @@ struct ReviewView: View {
     @State private var streakBreakAnimation: StreakBreakAnimation?
     @State private var isLaunchCardContentVisible = false
     @State private var isLaunchChromeVisible = false
+    @State private var isReviewChromeReturnVisible = true
 
     private struct CardMetrics {
         let baseWidth: CGFloat
@@ -87,8 +92,16 @@ struct ReviewView: View {
         )
     }
 
+    private var isReviewChromeSuppressed: Bool {
+        isEditing || isEditViewPresented || isBatchAdding
+    }
+
+    private var isReviewChromeVisible: Bool {
+        isLaunchChromeVisible && isReviewChromeReturnVisible
+    }
+
     private var dragRollDegrees: Double {
-        guard !isEditing else { return 0 }
+        guard !isReviewChromeSuppressed else { return 0 }
         return Double(translation.width / 14)
     }
 
@@ -130,14 +143,23 @@ struct ReviewView: View {
 
     var body: some View {
         ZStack {
-            ReviewStreakSunriseBackground(
-                correctStreak: isStreakFireEnabled ? viewModel.correctSwipeStreak : 0,
-                breakAnimation: isStreakFireEnabled ? streakBreakAnimation : nil,
-                translation: translation
-            )
+            if isFocusMode {
+                ReviewStreakSunriseBackground(
+                    correctStreak: 0,
+                    breakAnimation: nil,
+                    translation: translation
+                )
+            } else {
+                ReviewStreakSunriseBackground(
+                    correctStreak: isStreakFireEnabled ? viewModel.correctSwipeStreak : 0,
+                    breakAnimation: isStreakFireEnabled ? streakBreakAnimation : nil,
+                    translation: translation
+                )
+            }
 
             GeometryReader { proxy in
                 let metrics = cardMetrics(for: proxy)
+                let manualKeyboardReserve = editManualKeyboardReserve(for: proxy)
 
                 ZStack {
                     if isFocusMode {
@@ -161,31 +183,28 @@ struct ReviewView: View {
                             maxHeight: .infinity,
                             alignment: .center
                         )
+                        .padding(.bottom, manualKeyboardReserve)
+                        .animation(.spring(response: 0.28, dampingFraction: 0.86), value: manualKeyboardReserve)
                 }
                 .safeAreaInset(edge: .top, spacing: 0) {
-                    if !isFocusMode && !isEditing {
+                    if !isFocusMode && !isReviewChromeSuppressed {
                         stackSummaryRow
                             .padding(.top, chromeInset)
                             .frame(maxWidth: .infinity)
-                            .scaleEffect(isLaunchChromeVisible ? 1 : 0.38, anchor: .top)
-                            .offset(y: isLaunchChromeVisible ? 0 : -86)
-                            .opacity(isLaunchChromeVisible ? 1 : 0)
-                            .animation(.spring(response: 0.52, dampingFraction: 0.62), value: isLaunchChromeVisible)
+                            .scaleEffect(isReviewChromeVisible ? 1 : 0.38, anchor: .top)
+                            .offset(y: isReviewChromeVisible ? 0 : -86)
+                            .opacity(isReviewChromeVisible ? 1 : 0)
+                            .animation(.spring(response: 0.52, dampingFraction: 0.62), value: isReviewChromeVisible)
                     }
                 }
                 .safeAreaInset(edge: .bottom, spacing: 0) {
-                    if !isFocusMode && !isEditing {
+                    if !isFocusMode && !isReviewChromeSuppressed {
                         editControls
                             .padding(.horizontal, 36)
                             .padding(.bottom, 0)
-                            .offset(y: isLaunchChromeVisible ? 0 : 92)
-                            .opacity(isLaunchChromeVisible ? 1 : 0)
-                            .animation(.spring(response: 0.48, dampingFraction: 0.78), value: isLaunchChromeVisible)
-                    }
-                }
-                .safeAreaInset(edge: .bottom, spacing: 0) {
-                    if isEditing && isEditKeyboardFocusRequested {
-                        editAccessoryControls
+                            .offset(y: isReviewChromeVisible ? 0 : 92)
+                            .opacity(isReviewChromeVisible ? 1 : 0)
+                            .animation(.spring(response: 0.48, dampingFraction: 0.78), value: isReviewChromeVisible)
                     }
                 }
                 .overlay(alignment: .bottom) {
@@ -193,6 +212,13 @@ struct ReviewView: View {
                         focusModeDisclaimerBar
                             .padding(.bottom, chromeInset)
                             .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+                .overlay(alignment: .bottomTrailing) {
+                    if isEditViewPresented && isEditKeyboardFocusRequested {
+                        editAccessoryControls
+                            .padding(.trailing, 36)
+                            .padding(.bottom, 8)
                     }
                 }
                 .overlay(alignment: .topLeading) {
@@ -203,6 +229,12 @@ struct ReviewView: View {
                     }
                 }
                 .coordinateSpace(name: "reviewSpace")
+                .onAppear {
+                    reviewViewportSize = proxy.size
+                }
+                .onChange(of: proxy.size) { _, size in
+                    reviewViewportSize = size
+                }
                 .onPreferenceChange(StackFramePreferenceKey.self) { frames in
                     stackFrames.merge(frames) { _, new in new }
                 }
@@ -225,18 +257,55 @@ struct ReviewView: View {
                 }
             }
         }
+        .onChange(of: isBackSideFirst) { _, _ in
+            resetPresentedCardState()
+        }
+        .sheet(isPresented: $isBatchAdding, onDismiss: { dismissKeyboardFromWindows() }) {
+            BatchAddCardsView(
+                onCancel: { isBatchAdding = false },
+                onSave: { completedRows in
+                    let notes = completedRows.map { row in
+                        CardNote(
+                            id: "custom.\(UUID().uuidString)",
+                            cardType: .genericV1,
+                            facets: [
+                                CardFacetKey.front: [row.front],
+                                CardFacetKey.back: [row.back]
+                            ]
+                        )
+                    }
+                    viewModel.addNotes(notes)
+                    isBatchAdding = false
+                }
+            )
+            .presentationDetents([.medium, .large])
+            .presentationDragIndicator(.visible)
+        }
+    }
+
+    private func dismissKeyboardFromWindows() {
+        for scene in UIApplication.shared.connectedScenes {
+            guard let windowScene = scene as? UIWindowScene else { continue }
+            windowScene.windows.forEach { $0.endEditing(true) }
+        }
+        UIApplication.shared.sendAction(
+            #selector(UIResponder.resignFirstResponder),
+            to: nil,
+            from: nil,
+            for: nil
+        )
     }
 
     @MainActor
     private func runLaunchIntro() async {
         guard !isLaunchCardContentVisible || !isLaunchChromeVisible else { return }
 
-        try? await Task.sleep(for: .seconds(1.9))
-        withAnimation(.easeOut(duration: 0.22)) {
+        try? await Task.sleep(for: .seconds(1.08))
+        withAnimation(.easeOut(duration: 0.11)) {
             isLaunchCardContentVisible = true
         }
 
-        try? await Task.sleep(for: .seconds(0.2))
+        try? await Task.sleep(for: .seconds(0.1))
         withAnimation(.spring(response: 0.52, dampingFraction: 0.66)) {
             isLaunchChromeVisible = true
         }
@@ -273,7 +342,9 @@ struct ReviewView: View {
             transferDestinationPulse: transferDestinationPulse,
             dropTargetStack: dropTargetStack,
             currentStack: viewModel.currentCard?.progress.stack,
-            onStackTap: selectCardFromStack
+            lockedStack: viewModel.lockedStack,
+            onStackTap: handleStackTap,
+            onStackLongPress: lockStack
         )
     }
 
@@ -335,6 +406,10 @@ struct ReviewView: View {
                     key: CardFramePreferenceKey.self,
                     value: cardProxy.frame(in: .named("reviewSpace"))
                 )
+                .preference(
+                    key: LaunchCardFramePreferenceKey.self,
+                    value: cardProxy.frame(in: .named("launchSpace"))
+                )
         }
     }
 
@@ -358,12 +433,13 @@ struct ReviewView: View {
 
     @ViewBuilder
     private func cardView(for card: ReviewCardState, cardSize: CGSize) -> some View {
-        if isEditing {
+        if isEditViewPresented {
             ReviewEditView(
                 isBackSide: $isFlipped,
                 draftFrontText: $draftFrontText,
                 draftBackText: $draftBackText,
-                isKeyboardFocusRequested: isEditKeyboardFocusRequested
+                isKeyboardFocusRequested: isEditKeyboardFocusRequested,
+                isBackFaceVisible: isBackFaceVisible
             )
         } else {
             cardSurface(for: card)
@@ -430,7 +506,7 @@ struct ReviewView: View {
     private func dragGesture(cardSize: CGSize) -> some Gesture {
         DragGesture(minimumDistance: 8, coordinateSpace: .named("reviewSpace"))
             .onChanged { value in
-                guard !isEditing else { return }
+                guard !isReviewChromeSuppressed else { return }
 
                 updatePressInteraction(with: value, cardSize: cardSize)
 
@@ -443,7 +519,7 @@ struct ReviewView: View {
                 }
             }
             .onEnded { value in
-                guard !isEditing else { return }
+                guard !isReviewChromeSuppressed else { return }
                 let swipeThreshold: CGFloat = 90
                 let releaseLocation = value.location
 
@@ -471,7 +547,7 @@ struct ReviewView: View {
     private func flipTapGesture() -> some Gesture {
         TapGesture()
             .onEnded {
-                guard !isEditing, !isCommittingSwipe else { return }
+                guard !isReviewChromeSuppressed, !isCommittingSwipe else { return }
                 resetDropTarget()
                 toggleFlip()
             }
@@ -490,15 +566,38 @@ struct ReviewView: View {
         }
     }
 
-    private func selectCardFromStack(_ stack: LearningStack) {
-        guard !isEditing, !isCommittingSwipe, (viewModel.countsByStack[stack] ?? 0) > 0 else { return }
+    private func handleStackTap(_ stack: LearningStack) {
+        if viewModel.lockedStack != nil {
+            viewModel.unlockStack()
+        }
+
+        selectCardFromStack(stack)
+    }
+
+    private func lockStack(_ stack: LearningStack) {
+        guard !isReviewChromeSuppressed, !isCommittingSwipe, (viewModel.countsByStack[stack] ?? 0) > 0 else { return }
+        viewModel.lockStack(stack)
+        triggerStackLockHaptic()
+        selectCardFromStack(stack, triggersSelectionHaptic: false) {
+            viewModel.selectCard(from: stack)
+        }
+    }
+
+    private func selectCardFromStack(
+        _ stack: LearningStack,
+        triggersSelectionHaptic: Bool = true,
+        selection: @escaping () -> Void
+    ) {
+        guard !isReviewChromeSuppressed, !isCommittingSwipe, (viewModel.countsByStack[stack] ?? 0) > 0 else { return }
         isCommittingSwipe = true
         resetDropTarget()
         resetPressInteraction(animated: true)
-        triggerDropTargetHaptic()
+        if triggersSelectionHaptic {
+            triggerDropTargetHaptic()
+        }
 
         guard !cardFrame.isEmpty, let stackFrame = stackFrames[stack] else {
-            viewModel.selectCard(from: stack)
+            selection()
             return
         }
 
@@ -514,6 +613,12 @@ struct ReviewView: View {
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.18) {
             entrySourceFrameOverride = stackFrame
+            selection()
+        }
+    }
+
+    private func selectCardFromStack(_ stack: LearningStack) {
+        selectCardFromStack(stack) {
             viewModel.selectCard(from: stack)
         }
     }
@@ -575,6 +680,15 @@ struct ReviewView: View {
         )
     }
 
+    private func editManualKeyboardReserve(for proxy: GeometryProxy) -> CGFloat {
+        guard isEditing else { return 0 }
+
+        let currentHeight = max(proxy.size.height, 1)
+        let fullHeight = max(observedScreenHeight, currentHeight)
+        let systemAppliedKeyboardInset = max(0, fullHeight - currentHeight)
+        return max(0, editReservedKeyboardHeight - systemAppliedKeyboardInset)
+    }
+
     private func cardSurface(for card: ReviewCardState) -> some View {
         ReviewCardSurface(
             note: card.note,
@@ -590,12 +704,14 @@ struct ReviewView: View {
         ReviewToolbar(
             hasCurrentCard: viewModel.currentCard != nil,
             isStreakFireEnabled: $isStreakFireEnabled,
+            isBackSideFirst: $isBackSideFirst,
             onFocus: enterFocusMode,
             onDelete: {
                 isDeleteConfirmationPresented = true
             },
             onEdit: enterEditMode,
-            onAdd: beginAddCardFlow
+            onAdd: beginAddCardFlow,
+            onBatchAdd: beginBatchAddFlow
         )
         .onPreferenceChange(AddButtonFramePreferenceKey.self) { frame in
             addButtonFrame = frame
@@ -615,53 +731,25 @@ struct ReviewView: View {
     }
 
     private var editAccessoryControls: some View {
-        VStack(alignment: .trailing, spacing: 0) {
-            HStack(spacing: 8) {
-                editAccessoryButton(systemName: "xmark", action: cancelEditing)
-                editAccessoryButton(systemName: "rectangle.portrait.rotate", action: toggleFlip)
-                editAccessoryButton(systemName: "checkmark", isEnabled: saveButtonEnabled, action: saveEditing)
-            }
-            .padding(4)
-            .background(.thinMaterial, in: Capsule())
-
-            Color.clear
-                .frame(height: 8)
-        }
-        .frame(maxWidth: .infinity, alignment: .trailing)
-        .padding(.trailing, 16)
-    }
-
-    private func editAccessoryButton(
-        systemName: String,
-        isEnabled: Bool = true,
-        action: @escaping () -> Void
-    ) -> some View {
-        Button(action: action) {
-            Image(systemName: systemName)
-                .font(.system(size: 17, weight: .semibold))
-                .foregroundStyle(.primary.opacity(isEnabled ? 1 : 0.35))
-                .frame(width: 32, height: 32)
-        }
-        .buttonStyle(.plain)
-        .disabled(!isEnabled)
+        ReviewKeyboardAccessory(
+            isSaveEnabled: saveButtonEnabled,
+            onCancel: cancelEditing,
+            onFlip: toggleFlip,
+            onSave: saveEditing
+        )
     }
 
     private func enterEditMode() {
         guard let note = viewModel.currentCard?.note else { return }
-        editTransitionTask?.cancel()
         isAddingNewCard = false
         draftCard = nil
         isEditKeyboardFocusRequested = false
-        editReservedKeyboardHeight = initialEditKeyboardHeight()
         loadDrafts(from: note)
-        withAnimation(.spring(response: 0.28, dampingFraction: 0.86)) {
-            isEditing = true
-        }
         translation = .zero
         resetPressInteraction()
         isCommittingSwipe = false
         touchMoved = false
-        requestKeyboardFocusDuringCardGrowth()
+        beginEditPresentation()
     }
 
     private func cancelEditing() {
@@ -673,15 +761,6 @@ struct ReviewView: View {
         finishEditing(shouldSave: true)
     }
 
-    private func requestKeyboardFocusDuringCardGrowth() {
-        editTransitionTask?.cancel()
-        editTransitionTask = Task { @MainActor in
-            try? await Task.sleep(for: .seconds(0.08))
-            guard !Task.isCancelled, isEditing else { return }
-            isEditKeyboardFocusRequested = true
-        }
-    }
-
     private func initialEditKeyboardHeight() -> CGFloat {
         if lastObservedKeyboardHeight > 0 {
             return lastObservedKeyboardHeight
@@ -690,27 +769,52 @@ struct ReviewView: View {
         return min(max(estimatedScreenHeight * 0.34, 300), 380)
     }
 
+    private func beginEditPresentation() {
+        editCloseTask?.cancel()
+        editCloseTask = nil
+        isReviewChromeReturnVisible = false
+        editReservedKeyboardHeight = initialEditKeyboardHeight()
+        withAnimation(.spring(response: 0.28, dampingFraction: 0.86)) {
+            isEditViewPresented = true
+            isEditing = true
+            isEditKeyboardFocusRequested = true
+        }
+    }
+
     private func finishEditing(shouldSave: Bool) {
-        editTransitionTask?.cancel()
-        isEditKeyboardFocusRequested = false
+        guard isEditing else { return }
+        editCloseTask?.cancel()
+        isReviewChromeReturnVisible = false
 
-        editTransitionTask = Task { @MainActor in
-            try? await Task.sleep(for: .seconds(0.28))
-            guard !Task.isCancelled, isEditing else { return }
+        if shouldSave {
+            commitEditing()
+            runSaveGlow()
+        } else {
+            discardEditing()
+            runCancelShake()
+        }
 
-            if shouldSave {
-                commitEditing()
-                runSaveGlow()
-            } else {
-                discardEditing()
-                runCancelShake()
-            }
-
-            withAnimation(.spring(response: 0.28, dampingFraction: 0.86)) {
-                isEditing = false
-            }
+        withAnimation(.spring(response: 0.28, dampingFraction: 0.86)) {
+            isEditKeyboardFocusRequested = false
+            isEditing = false
             editReservedKeyboardHeight = 0
-            editTransitionTask = nil
+        }
+
+        editCloseTask = Task { @MainActor in
+            try? await Task.sleep(for: .seconds(0.34))
+            guard !Task.isCancelled, !isEditing else { return }
+
+            isEditViewPresented = false
+
+            guard !isBatchAdding else {
+                editCloseTask = nil
+                return
+            }
+
+            withAnimation(.spring(response: 0.48, dampingFraction: 0.78)) {
+                isReviewChromeReturnVisible = true
+            }
+            editCloseTask = nil
         }
     }
 
@@ -755,7 +859,7 @@ struct ReviewView: View {
     }
 
     private func deleteCurrentCard() {
-        guard viewModel.currentCard != nil, !isEditing else { return }
+        guard viewModel.currentCard != nil, !isReviewChromeSuppressed else { return }
         let targetOffset = deleteDepartureOffset()
 
         withAnimation(.spring(response: 0.24, dampingFraction: 0.86)) {
@@ -782,9 +886,13 @@ struct ReviewView: View {
         )
     }
 
+    private func beginBatchAddFlow() {
+        guard !isReviewChromeSuppressed else { return }
+        isBatchAdding = true
+    }
+
     private func beginAddCardFlow() {
-        guard !isEditing else { return }
-        editTransitionTask?.cancel()
+        guard !isReviewChromeSuppressed else { return }
         isEditKeyboardFocusRequested = false
 
         translation = .zero
@@ -811,13 +919,9 @@ struct ReviewView: View {
                 progress: .initial
             )
             isAddingNewCard = true
-            editReservedKeyboardHeight = initialEditKeyboardHeight()
             clearDrafts()
             prepareDraftCardFromAddButton()
-            withAnimation(.spring(response: 0.28, dampingFraction: 0.86)) {
-                isEditing = true
-            }
-            requestKeyboardFocusDuringCardGrowth()
+            beginEditPresentation()
         }
     }
 
@@ -838,13 +942,12 @@ struct ReviewView: View {
     }
 
     private func discardDraftCard() {
-        editTransitionTask?.cancel()
-        isEditKeyboardFocusRequested = false
         draftCard = nil
         isAddingNewCard = false
-        editReservedKeyboardHeight = 0
         withAnimation(.spring(response: 0.28, dampingFraction: 0.86)) {
+            isEditKeyboardFocusRequested = false
             isEditing = false
+            editReservedKeyboardHeight = 0
         }
         runCancelShake()
         resetPresentedCardState()
@@ -855,14 +958,15 @@ struct ReviewView: View {
         resetTransaction.disablesAnimations = true
 
         withTransaction(resetTransaction) {
-            isFlipped = false
-            isBackFaceVisible = false
+            isFlipped = isBackSideFirst
+            isBackFaceVisible = isBackSideFirst
             translation = .zero
             isCommittingSwipe = false
             isEditKeyboardFocusRequested = false
             editReservedKeyboardHeight = 0
             if !isAddingNewCard {
                 isEditing = false
+                isEditViewPresented = false
             }
             entryOffset = .zero
             entryScale = 1
@@ -884,6 +988,12 @@ struct ReviewView: View {
     }
 
     private func preparePresentedCard(using note: CardNote) {
+        var resetTransaction = Transaction()
+        resetTransaction.disablesAnimations = true
+        withTransaction(resetTransaction) {
+            isFlipped = isBackSideFirst
+            isBackFaceVisible = isBackSideFirst
+        }
         randomizeCardTilts()
         loadDrafts(from: note)
         scheduleEntryAnimation()
@@ -1019,6 +1129,12 @@ struct ReviewView: View {
         generator.selectionChanged()
     }
 
+    private func triggerStackLockHaptic() {
+        let generator = UIImpactFeedbackGenerator(style: .medium)
+        generator.prepare()
+        generator.impactOccurred(intensity: 0.9)
+    }
+
     private func triggerStackPulseHaptic(for stack: LearningStack) {
         let style: UIImpactFeedbackGenerator.FeedbackStyle
         let intensity: CGFloat
@@ -1096,9 +1212,12 @@ struct ReviewView: View {
             return
         }
 
+        let shorterViewportSide = min(reviewViewportSize.width, reviewViewportSize.height)
+        let travelDistance = max(shorterViewportSide * 0.28, 120)
         let event = ReviewStackBurstEvent(
             stack: stack,
-            origin: CGPoint(x: stackFrame.midX, y: stackFrame.midY)
+            origin: CGPoint(x: stackFrame.midX, y: stackFrame.midY),
+            travelDistance: travelDistance
         )
         stackBurstEvent = event
 

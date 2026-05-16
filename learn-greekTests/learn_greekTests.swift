@@ -93,4 +93,79 @@ struct learn_greekTests {
         #expect(notes[0].facets[CardFacetKey.back] == ["water"])
         #expect(notes[1].id == "seed.2")
     }
+
+    @Test func catalogLoaderPreservesOptionalKeywords() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString + ".json")
+        defer { try? FileManager.default.removeItem(at: url) }
+
+        let json = """
+        [
+          { "front": "αλάτι", "back": "salt", "keywords": ["food"] },
+          { "front": "ως", "back": "as", "keywords": ["grammar"] }
+        ]
+        """
+
+        try json.write(to: url, atomically: true, encoding: .utf8)
+
+        let notes = try BundledCardCatalogLoader.loadCatalog(from: url)
+
+        #expect(notes[0].facets[CardFacetKey.keywords] == ["food"])
+        #expect(notes[1].facets[CardFacetKey.keywords] == ["grammar"])
+    }
+
+    @Test func batchValidatorFindsCompletedRows() {
+        let rows = [
+            BatchRowDraft(front: "νερό", back: "water"),
+            BatchRowDraft(front: "ως", back: ""),
+            BatchRowDraft(isPlaceholder: true)
+        ]
+
+        let completed = BatchRowValidator.completedRows(from: rows)
+
+        #expect(completed.count == 1)
+        #expect(completed[0].front == "νερό")
+    }
+
+    @Test func batchValidatorFlagsPartialRowEmptyCells() {
+        let rowID = UUID()
+        let rows = [
+            BatchRowDraft(id: rowID, front: "νερό", back: "")
+        ]
+
+        let errors = BatchRowValidator.partialRowEmptyCells(from: rows)
+
+        #expect(errors == [BatchCellID(rowID: rowID, column: .back)])
+    }
+
+    @Test func batchValidatorIgnoresFullyEmptyRows() {
+        let rows = [
+            BatchRowDraft(),
+            BatchRowDraft(front: "a", back: "b")
+        ]
+
+        #expect(BatchRowValidator.partialRowEmptyCells(from: rows).isEmpty)
+        #expect(BatchRowValidator.completedRows(from: rows).count == 1)
+    }
+
+    @Test func keywordCatalogDocumentDecodes() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString + ".json")
+        defer { try? FileManager.default.removeItem(at: url) }
+
+        let json = """
+        {
+          "schemaVersion": 1,
+          "keywords": [
+            { "id": "grammar", "label": "Grammar" },
+            { "id": "food", "label": "Food & drink" }
+          ]
+        }
+        """
+
+        try json.write(to: url, atomically: true, encoding: .utf8)
+        let data = try Data(contentsOf: url)
+        let document = try JSONDecoder().decode(KeywordCatalogDocument.self, from: data)
+
+        #expect(document.keywords.count == 2)
+        #expect(document.keywords[0].id == "grammar")
+    }
 }

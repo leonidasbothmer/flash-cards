@@ -15,6 +15,7 @@ enum CardFacetKey {
     nonisolated static let definition = "definition"
     nonisolated static let front = "front"
     nonisolated static let back = "back"
+    nonisolated static let keywords = "keywords"
 
     nonisolated static func gloss(_ languageCode: String) -> String {
         "gloss.\(languageCode)"

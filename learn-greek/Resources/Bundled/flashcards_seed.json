@@ -1,4002 +1,7002 @@
 [
   {
     "front": "ως",
-    "back": "as"
+    "back": "as",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "εδώ",
-    "back": "I"
+    "back": "I",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "του",
-    "back": "his"
+    "back": "his",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ότι",
-    "back": "that"
+    "back": "that",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αυτός",
-    "back": "he"
+    "back": "he",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ήταν",
-    "back": "was"
+    "back": "was",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "για",
-    "back": "for"
+    "back": "for",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "επί",
-    "back": "on"
+    "back": "on",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "είναι",
-    "back": "are"
+    "back": "are",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "με",
-    "back": "with"
+    "back": "with",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αυτοί",
-    "back": "they"
+    "back": "they",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "να",
-    "back": "be"
+    "back": "be",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σε",
-    "back": "at"
+    "back": "at",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ένας",
-    "back": "one"
+    "back": "one",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "έχω",
-    "back": "have"
+    "back": "have",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αυτό",
-    "back": "this"
+    "back": "this",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "από",
-    "back": "from"
+    "back": "from",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "από",
-    "back": "by"
+    "back": "by",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "hot",
-    "back": "hot"
+    "back": "hot",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "λέξη",
-    "back": "word"
+    "back": "word",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "αλλά",
-    "back": "but"
+    "back": "but",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τι",
-    "back": "what"
+    "back": "what",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "περίπου",
-    "back": "some"
+    "back": "some",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "είναι",
-    "back": "is"
+    "back": "is",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "το",
-    "back": "it"
+    "back": "it",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σας",
-    "back": "you"
+    "back": "you",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ή",
-    "back": "or"
+    "back": "or",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "είχε",
-    "back": "had"
+    "back": "had",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ο",
-    "back": "the"
+    "back": "the",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "από",
-    "back": "of"
+    "back": "of",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "να",
-    "back": "to"
+    "back": "to",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "και",
-    "back": "and"
+    "back": "and",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "α",
-    "back": "a"
+    "back": "a",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σε",
-    "back": "in"
+    "back": "in",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "εμείς",
-    "back": "we"
+    "back": "we",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μπορεί",
-    "back": "can"
+    "back": "can",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "από",
-    "back": "out"
+    "back": "out",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "άλλα",
-    "back": "other"
+    "back": "other",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ήταν",
-    "back": "were"
+    "back": "were",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ο οποίος",
-    "back": "which"
+    "back": "which",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "κάνει",
-    "back": "do"
+    "back": "do",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τους",
-    "back": "their"
+    "back": "their",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "χρόνος",
-    "back": "time"
+    "back": "time",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "αν",
-    "back": "if"
+    "back": "if",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "θα",
-    "back": "will"
+    "back": "will",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πως",
-    "back": "how"
+    "back": "how",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "είπε",
-    "back": "said"
+    "back": "said",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ένα",
-    "back": "an"
+    "back": "an",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "κάθε",
-    "back": "each"
+    "back": "each",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πείτε",
-    "back": "tell"
+    "back": "tell",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κάνει",
-    "back": "does"
+    "back": "does",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σετ",
-    "back": "set"
+    "back": "set",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "τρία",
-    "back": "three"
+    "back": "three",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "θέλω",
-    "back": "want"
+    "back": "want",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "αέρας",
-    "back": "air"
+    "back": "air",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καλά",
-    "back": "well"
+    "back": "well",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επίσης,",
-    "back": "also"
+    "back": "also",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "παιχνίδι",
-    "back": "play"
+    "back": "play",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μικρό",
-    "back": "small"
+    "back": "small",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "τέλος",
-    "back": "end"
+    "back": "end",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "που",
-    "back": "put"
+    "back": "put",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "σπίτι",
-    "back": "home"
+    "back": "home",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "διαβάστε",
-    "back": "read"
+    "back": "read",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "χέρι",
-    "back": "hand"
+    "back": "hand",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "λιμάνι",
-    "back": "port"
+    "back": "port",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "μεγάλες",
-    "back": "large"
+    "back": "large",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "σημάνει",
-    "back": "spell"
+    "back": "spell",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "προσθέσετε",
-    "back": "add"
+    "back": "add",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ακόμη",
-    "back": "even"
+    "back": "even",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "γη",
-    "back": "land"
+    "back": "land",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "εδώ",
-    "back": "here"
+    "back": "here",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πρέπει",
-    "back": "must"
+    "back": "must",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μεγάλος",
-    "back": "big"
+    "back": "big",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "υψηλός",
-    "back": "high"
+    "back": "high",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "όπως",
-    "back": "such"
+    "back": "such",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ακολουθήστε",
-    "back": "follow"
+    "back": "follow",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πράξη",
-    "back": "act"
+    "back": "act",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γιατί",
-    "back": "why"
+    "back": "why",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ρωτήστε",
-    "back": "ask"
+    "back": "ask",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "άνδρες",
-    "back": "men"
+    "back": "men",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αλλαγή",
-    "back": "change"
+    "back": "change",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πήγε",
-    "back": "went"
+    "back": "went",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φως",
-    "back": "light"
+    "back": "light",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "είδος",
-    "back": "kind"
+    "back": "kind",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "απενεργοποίηση",
-    "back": "off"
+    "back": "off",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ανάγκη",
-    "back": "need"
+    "back": "need",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σπίτι",
-    "back": "house"
+    "back": "house",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "εικόνα",
-    "back": "picture"
+    "back": "picture",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δοκιμάστε",
-    "back": "try"
+    "back": "try",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μας",
-    "back": "us"
+    "back": "us",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πάλι",
-    "back": "again"
+    "back": "again",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ζώο",
-    "back": "animal"
+    "back": "animal",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "σημείο",
-    "back": "point"
+    "back": "point",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "Η μητέρα",
-    "back": "mother"
+    "back": "mother",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "κόσμο",
-    "back": "world"
+    "back": "world",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "κοντά",
-    "back": "near"
+    "back": "near",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "οικοδομήσουμε",
-    "back": "build"
+    "back": "build",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "αυτο",
-    "back": "self"
+    "back": "self",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γη",
-    "back": "earth"
+    "back": "earth",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "Ο πατέρας",
-    "back": "father"
+    "back": "father",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "κάθε",
-    "back": "any"
+    "back": "any",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "νέα",
-    "back": "new"
+    "back": "new",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "εργασία",
-    "back": "work"
+    "back": "work",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "μέρος",
-    "back": "part"
+    "back": "part",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "λαμβάνουν",
-    "back": "take"
+    "back": "take",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πάρετε",
-    "back": "get"
+    "back": "get",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "θέση",
-    "back": "place"
+    "back": "place",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "που",
-    "back": "made"
+    "back": "made",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ζω",
-    "back": "live"
+    "back": "live",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "όπου",
-    "back": "where"
+    "back": "where",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μετά",
-    "back": "after"
+    "back": "after",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πίσω",
-    "back": "back"
+    "back": "back",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "λίγο",
-    "back": "little"
+    "back": "little",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "μόνο",
-    "back": "only"
+    "back": "only",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "γύρος",
-    "back": "round"
+    "back": "round",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "άνθρωπος",
-    "back": "man"
+    "back": "man",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "έτους",
-    "back": "year"
+    "back": "year",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "ήρθε",
-    "back": "came"
+    "back": "came",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σόου",
-    "back": "show"
+    "back": "show",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κάθε",
-    "back": "every"
+    "back": "every",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "καλός",
-    "back": "good"
+    "back": "good",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "μου",
-    "back": "me"
+    "back": "me",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δώσει",
-    "back": "give"
+    "back": "give",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μας",
-    "back": "our"
+    "back": "our",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "υπό",
-    "back": "under"
+    "back": "under",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "όνομα",
-    "back": "name"
+    "back": "name",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "πολύ",
-    "back": "very"
+    "back": "very",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μέσω",
-    "back": "through"
+    "back": "through",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μόνο",
-    "back": "just"
+    "back": "just",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μορφή",
-    "back": "form"
+    "back": "form",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "φράση",
-    "back": "sentence"
+    "back": "sentence",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μεγάλος",
-    "back": "great"
+    "back": "great",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "νομίζω",
-    "back": "think"
+    "back": "think",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "λένε",
-    "back": "say"
+    "back": "say",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "βοηθήσει",
-    "back": "help"
+    "back": "help",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "χαμηλής",
-    "back": "low"
+    "back": "low",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "γραμμή",
-    "back": "line"
+    "back": "line",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "διαφέρουν",
-    "back": "differ"
+    "back": "differ",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "στροφή",
-    "back": "turn"
+    "back": "turn",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "αιτία",
-    "back": "cause"
+    "back": "cause",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πολύ",
-    "back": "much"
+    "back": "much",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σημαίνει",
-    "back": "mean"
+    "back": "mean",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "πριν",
-    "back": "before"
+    "back": "before",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "κίνηση",
-    "back": "move"
+    "back": "move",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "δεξιά",
-    "back": "right"
+    "back": "right",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "αγόρι",
-    "back": "boy"
+    "back": "boy",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "γριά",
-    "back": "old"
+    "back": "old",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "πάρα πολύ",
-    "back": "too"
+    "back": "too",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ίδιο",
-    "back": "same"
+    "back": "same",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "που",
-    "back": "she"
+    "back": "she",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "όλα",
-    "back": "all"
+    "back": "all",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "εκεί",
-    "back": "there"
+    "back": "there",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "όταν",
-    "back": "when"
+    "back": "when",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "επάνω",
-    "back": "up"
+    "back": "up",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "χρήση",
-    "back": "use"
+    "back": "use",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "σας",
-    "back": "your"
+    "back": "your",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τρόπος",
-    "back": "way"
+    "back": "way",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "περίπου",
-    "back": "about"
+    "back": "about",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πολλά",
-    "back": "many"
+    "back": "many",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τότε",
-    "back": "then"
+    "back": "then",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τους",
-    "back": "them"
+    "back": "them",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γράφω",
-    "back": "write"
+    "back": "write",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "θα",
-    "back": "would"
+    "back": "would",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σαν",
-    "back": "like"
+    "back": "like",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "έτσι",
-    "back": "so"
+    "back": "so",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αυτά",
-    "back": "these"
+    "back": "these",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "της",
-    "back": "her"
+    "back": "her",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μακρά",
-    "back": "long"
+    "back": "long",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "κάνω",
-    "back": "make"
+    "back": "make",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πράγμα",
-    "back": "thing"
+    "back": "thing",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "βλέπω",
-    "back": "see"
+    "back": "see",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "τον",
-    "back": "him"
+    "back": "him",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δυο",
-    "back": "two"
+    "back": "two",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "έχει",
-    "back": "has"
+    "back": "has",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "δείτε",
-    "back": "look"
+    "back": "look",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "περισσότερα",
-    "back": "more"
+    "back": "more",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ημέρα",
-    "back": "day"
+    "back": "day",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "θα μπορούσε",
-    "back": "could"
+    "back": "could",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πηγαίνω",
-    "back": "go"
+    "back": "go",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "έρχονται",
-    "back": "come"
+    "back": "come",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "έκανε",
-    "back": "did"
+    "back": "did",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αριθμός",
-    "back": "number"
+    "back": "number",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ήχος",
-    "back": "sound"
+    "back": "sound",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δεν",
-    "back": "no"
+    "back": "no",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πλέον",
-    "back": "most"
+    "back": "most",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "άνθρωποι",
-    "back": "people"
+    "back": "people",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "μου",
-    "back": "my"
+    "back": "my",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πέρα",
-    "back": "over"
+    "back": "over",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ξέρετε",
-    "back": "know"
+    "back": "know",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "νερό",
-    "back": "water"
+    "back": "water",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "από",
-    "back": "than"
+    "back": "than",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "κλήση",
-    "back": "call"
+    "back": "call",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πρώτη",
-    "back": "first"
+    "back": "first",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "που",
-    "back": "who"
+    "back": "who",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μπορεί",
-    "back": "may"
+    "back": "may",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "κάτω",
-    "back": "down"
+    "back": "down",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πλευρά",
-    "back": "side"
+    "back": "side",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "ήταν",
-    "back": "been"
+    "back": "been",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τώρα",
-    "back": "now"
+    "back": "now",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "βρείτε",
-    "back": "find"
+    "back": "find",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κεφάλι",
-    "back": "head"
+    "back": "head",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "στάση",
-    "back": "stand"
+    "back": "stand",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "δική",
-    "back": "own"
+    "back": "own",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σελίδα",
-    "back": "page"
+    "back": "page",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "θα πρέπει να",
-    "back": "should"
+    "back": "should",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "χώρα",
-    "back": "country"
+    "back": "country",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "βρέθηκαν",
-    "back": "found"
+    "back": "found",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "απάντηση",
-    "back": "answer"
+    "back": "answer",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "σχολείο",
-    "back": "school"
+    "back": "school",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "μεγαλώνουν",
-    "back": "grow"
+    "back": "grow",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μελέτη",
-    "back": "study"
+    "back": "study",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "ακόμα",
-    "back": "still"
+    "back": "still",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μάθετε",
-    "back": "learn"
+    "back": "learn",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "φυτό",
-    "back": "plant"
+    "back": "plant",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "κάλυμμα",
-    "back": "cover"
+    "back": "cover",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τροφίμων",
-    "back": "food"
+    "back": "food",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "ήλιος",
-    "back": "sun"
+    "back": "sun",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "τέσσερα",
-    "back": "four"
+    "back": "four",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μεταξύ",
-    "back": "between"
+    "back": "between",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "κατάσταση",
-    "back": "state"
+    "back": "state",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "κρατήσετε",
-    "back": "keep"
+    "back": "keep",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μάτι",
-    "back": "eye"
+    "back": "eye",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "ποτέ",
-    "back": "never"
+    "back": "never",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "τελευταία",
-    "back": "last"
+    "back": "last",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ας",
-    "back": "let"
+    "back": "let",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "σκέψης",
-    "back": "thought"
+    "back": "thought",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "πόλη",
-    "back": "city"
+    "back": "city",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "δέντρο",
-    "back": "tree"
+    "back": "tree",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "σταυρός",
-    "back": "cross"
+    "back": "cross",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "αγρόκτημα",
-    "back": "farm"
+    "back": "farm",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σκληρά",
-    "back": "hard"
+    "back": "hard",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "αρχή",
-    "back": "start"
+    "back": "start",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "θα μπορούσε",
-    "back": "might"
+    "back": "might",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ιστορία",
-    "back": "story"
+    "back": "story",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πριόνι",
-    "back": "saw"
+    "back": "saw",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σήμερα",
-    "back": "far"
+    "back": "far",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "θάλασσα",
-    "back": "sea"
+    "back": "sea",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "κλήρωση",
-    "back": "draw"
+    "back": "draw",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αριστερά",
-    "back": "left"
+    "back": "left",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "αργά",
-    "back": "late"
+    "back": "late",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "τρέχει",
-    "back": "run"
+    "back": "run",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μη",
-    "back": "don’t"
+    "back": "don’t",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ενώ",
-    "back": "while"
+    "back": "while",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τύπου",
-    "back": "press"
+    "back": "press",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κοντά",
-    "back": "close"
+    "back": "close",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "νύχτα",
-    "back": "night"
+    "back": "night",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "πραγματική",
-    "back": "real"
+    "back": "real",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "ζωή",
-    "back": "life"
+    "back": "life",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "λίγα",
-    "back": "few"
+    "back": "few",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "βόρεια",
-    "back": "north"
+    "back": "north",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "βιβλίο",
-    "back": "book"
+    "back": "book",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "φέρουν",
-    "back": "carry"
+    "back": "carry",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πήρε",
-    "back": "took"
+    "back": "took",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιστήμη",
-    "back": "science"
+    "back": "science",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "φάτε",
-    "back": "eat"
+    "back": "eat",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "δωμάτιο",
-    "back": "room"
+    "back": "room",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "φίλος",
-    "back": "friend"
+    "back": "friend",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "άρχισε",
-    "back": "began"
+    "back": "began",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ιδέα",
-    "back": "idea"
+    "back": "idea",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "ψάρι",
-    "back": "fish"
+    "back": "fish",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "βουνό",
-    "back": "mountain"
+    "back": "mountain",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "στάση",
-    "back": "stop"
+    "back": "stop",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μια φορά",
-    "back": "once"
+    "back": "once",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βάση",
-    "back": "base"
+    "back": "base",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ακούστε",
-    "back": "hear"
+    "back": "hear",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "άλογο",
-    "back": "horse"
+    "back": "horse",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "κόψιμο",
-    "back": "cut"
+    "back": "cut",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "βέβαιος",
-    "back": "sure"
+    "back": "sure",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παρακολουθήσετε",
-    "back": "watch"
+    "back": "watch",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "χρώμα",
-    "back": "color"
+    "back": "color",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πρόσωπο",
-    "back": "face"
+    "back": "face",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "ξύλο",
-    "back": "wood"
+    "back": "wood",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κύρια",
-    "back": "main"
+    "back": "main",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ανοιχτή",
-    "back": "open"
+    "back": "open",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "φαίνεται",
-    "back": "seem"
+    "back": "seem",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "μαζί",
-    "back": "together"
+    "back": "together",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επόμενος",
-    "back": "next"
+    "back": "next",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λευκό",
-    "back": "white"
+    "back": "white",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "παιδιά",
-    "back": "children"
+    "back": "children",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "αρχίσει",
-    "back": "begin"
+    "back": "begin",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πήρε",
-    "back": "got"
+    "back": "got",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "με τα πόδια",
-    "back": "walk"
+    "back": "walk",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "παράδειγμα",
-    "back": "example"
+    "back": "example",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ευκολία",
-    "back": "ease"
+    "back": "ease",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "χαρτί",
-    "back": "paper"
+    "back": "paper",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "ομάδα",
-    "back": "group"
+    "back": "group",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "πάντοτε",
-    "back": "always"
+    "back": "always",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "μουσική",
-    "back": "music"
+    "back": "music",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "εκείνοι",
-    "back": "those"
+    "back": "those",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "δύο",
-    "back": "both"
+    "back": "both",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σήμα",
-    "back": "mark"
+    "back": "mark",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συχνά",
-    "back": "often"
+    "back": "often",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "γράμμα",
-    "back": "letter"
+    "back": "letter",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "μέχρι",
-    "back": "until"
+    "back": "until",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μίλι",
-    "back": "mile"
+    "back": "mile",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ποτάμι",
-    "back": "river"
+    "back": "river",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "αυτοκίνητο",
-    "back": "car"
+    "back": "car",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "πόδια",
-    "back": "feet"
+    "back": "feet",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "φροντίδα",
-    "back": "care"
+    "back": "care",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "δεύτερη",
-    "back": "second"
+    "back": "second",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αρκετά",
-    "back": "enough"
+    "back": "enough",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "απλό",
-    "back": "plain"
+    "back": "plain",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κορίτσι",
-    "back": "girl"
+    "back": "girl",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "συνήθεις",
-    "back": "usual"
+    "back": "usual",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "νέους",
-    "back": "young"
+    "back": "young",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "έτοιμο",
-    "back": "ready"
+    "back": "ready",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παραπάνω",
-    "back": "above"
+    "back": "above",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πάντα",
-    "back": "ever"
+    "back": "ever",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κόκκινο",
-    "back": "red"
+    "back": "red",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "λίστα",
-    "back": "list"
+    "back": "list",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αν",
-    "back": "though"
+    "back": "though",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αισθάνονται",
-    "back": "feel"
+    "back": "feel",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "Συζήτηση",
-    "back": "talk"
+    "back": "talk",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "πουλί",
-    "back": "bird"
+    "back": "bird",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "σύντομα",
-    "back": "soon"
+    "back": "soon",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "σώμα",
-    "back": "body"
+    "back": "body",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "σκύλος",
-    "back": "dog"
+    "back": "dog",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "οικογένεια",
-    "back": "family"
+    "back": "family",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "απευθείας",
-    "back": "direct"
+    "back": "direct",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ενέχουν",
-    "back": "pose"
+    "back": "pose",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αφήστε",
-    "back": "leave"
+    "back": "leave",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "τραγούδι",
-    "back": "song"
+    "back": "song",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μέτρο",
-    "back": "measure"
+    "back": "measure",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πόρτα",
-    "back": "door"
+    "back": "door",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "προϊόν",
-    "back": "product"
+    "back": "product",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μαύρο",
-    "back": "black"
+    "back": "black",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "σύντομο",
-    "back": "short"
+    "back": "short",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "αριθμητικό",
-    "back": "numeral"
+    "back": "numeral",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κατηγορία",
-    "back": "class"
+    "back": "class",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "άνεμος",
-    "back": "wind"
+    "back": "wind",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "ερώτηση",
-    "back": "question"
+    "back": "question",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "συμβεί",
-    "back": "happen"
+    "back": "happen",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "πλήρης",
-    "back": "complete"
+    "back": "complete",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πλοίο",
-    "back": "ship"
+    "back": "ship",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "έκταση",
-    "back": "area"
+    "back": "area",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "ήμισυ",
-    "back": "half"
+    "back": "half",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βράχος",
-    "back": "rock"
+    "back": "rock",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "για",
-    "back": "order"
+    "back": "order",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "φωτιά",
-    "back": "fire"
+    "back": "fire",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "νότια",
-    "back": "south"
+    "back": "south",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "πρόβλημα",
-    "back": "problem"
+    "back": "problem",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "κομμάτι",
-    "back": "piece"
+    "back": "piece",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "είπε",
-    "back": "told"
+    "back": "told",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ήξερε",
-    "back": "knew"
+    "back": "knew",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "περάσει",
-    "back": "pass"
+    "back": "pass",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "από",
-    "back": "since"
+    "back": "since",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "κορυφή",
-    "back": "top"
+    "back": "top",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ολόκληρο",
-    "back": "whole"
+    "back": "whole",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βασιλιά",
-    "back": "king"
+    "back": "king",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "δρόμος",
-    "back": "street"
+    "back": "street",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "ιντσών",
-    "back": "inch"
+    "back": "inch",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πολλαπλασιάστε",
-    "back": "multiply"
+    "back": "multiply",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τίποτα",
-    "back": "nothing"
+    "back": "nothing",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πορεία",
-    "back": "course"
+    "back": "course",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μείνετε",
-    "back": "stay"
+    "back": "stay",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "τροχός",
-    "back": "wheel"
+    "back": "wheel",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πλήρους",
-    "back": "full"
+    "back": "full",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "δύναμη",
-    "back": "force"
+    "back": "force",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μπλε",
-    "back": "blue"
+    "back": "blue",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "αντικείμενο",
-    "back": "object"
+    "back": "object",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αποφασίζει",
-    "back": "decide"
+    "back": "decide",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "επιφάνεια",
-    "back": "surface"
+    "back": "surface",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βαθιά",
-    "back": "deep"
+    "back": "deep",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φεγγάρι",
-    "back": "moon"
+    "back": "moon",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "νησί",
-    "back": "island"
+    "back": "island",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "πόδι",
-    "back": "foot"
+    "back": "foot",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "σύστημα",
-    "back": "system"
+    "back": "system",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "απασχολημένος",
-    "back": "busy"
+    "back": "busy",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δοκιμή",
-    "back": "test"
+    "back": "test",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "ρεκόρ",
-    "back": "record"
+    "back": "record",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βάρκα",
-    "back": "boat"
+    "back": "boat",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "κοινός",
-    "back": "common"
+    "back": "common",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "χρυσό",
-    "back": "gold"
+    "back": "gold",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δυνατός",
-    "back": "possible"
+    "back": "possible",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "αεροπλάνο",
-    "back": "plane"
+    "back": "plane",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "αντ ‘",
-    "back": "stead"
+    "back": "stead",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ξηρό",
-    "back": "dry"
+    "back": "dry",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αναρωτιέμαι",
-    "back": "wonder"
+    "back": "wonder",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γέλιο",
-    "back": "laugh"
+    "back": "laugh",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "χιλιάδες",
-    "back": "thousand"
+    "back": "thousand",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πριν",
-    "back": "ago"
+    "back": "ago",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έτρεξε",
-    "back": "ran"
+    "back": "ran",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έλεγχος",
-    "back": "check"
+    "back": "check",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παιχνίδι",
-    "back": "game"
+    "back": "game",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σχήμα",
-    "back": "shape"
+    "back": "shape",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εξισώνουν",
-    "back": "equate"
+    "back": "equate",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ζεστό",
-    "back": "hot"
+    "back": "hot",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "δεσποινίς",
-    "back": "miss"
+    "back": "miss",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έφερε",
-    "back": "brought"
+    "back": "brought",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "θερμότητα",
-    "back": "heat"
+    "back": "heat",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "χιόνι",
-    "back": "snow"
+    "back": "snow",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "ελαστικών",
-    "back": "tire"
+    "back": "tire",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φέρω",
-    "back": "bring"
+    "back": "bring",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "ναί",
-    "back": "yes"
+    "back": "yes",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μακρινές",
-    "back": "distant"
+    "back": "distant",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συμπληρώστε",
-    "back": "fill"
+    "back": "fill",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "ανατολικά",
-    "back": "east"
+    "back": "east",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "ζωγραφίσει",
-    "back": "paint"
+    "back": "paint",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γλώσσα",
-    "back": "language"
+    "back": "language",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "μεταξύ",
-    "back": "among"
+    "back": "among",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μονάδα",
-    "back": "unit"
+    "back": "unit",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δύναμη",
-    "back": "power"
+    "back": "power",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "πόλη",
-    "back": "town"
+    "back": "town",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "πρόστιμο",
-    "back": "fine"
+    "back": "fine",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ορισμένες",
-    "back": "certain"
+    "back": "certain",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πετάξει",
-    "back": "fly"
+    "back": "fly",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πτώση",
-    "back": "fall"
+    "back": "fall",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "οδηγήσει",
-    "back": "lead"
+    "back": "lead",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κραυγή",
-    "back": "cry"
+    "back": "cry",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "σκούρο",
-    "back": "dark"
+    "back": "dark",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "μηχανή",
-    "back": "machine"
+    "back": "machine",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "σημείωση",
-    "back": "note"
+    "back": "note",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "περιμένετε",
-    "back": "wait"
+    "back": "wait",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "σχέδιο",
-    "back": "plan"
+    "back": "plan",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "εικόνα",
-    "back": "figure"
+    "back": "figure",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αστέρι",
-    "back": "star"
+    "back": "star",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "κουτί",
-    "back": "box"
+    "back": "box",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "όνομα",
-    "back": "noun"
+    "back": "noun",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τομέα",
-    "back": "field"
+    "back": "field",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "ανάπαυση",
-    "back": "rest"
+    "back": "rest",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σωστός",
-    "back": "correct"
+    "back": "correct",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "θέση",
-    "back": "able"
+    "back": "able",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λίρα",
-    "back": "pound"
+    "back": "pound",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "done",
-    "back": "done"
+    "back": "done",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ομορφιά",
-    "back": "beauty"
+    "back": "beauty",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "drive",
-    "back": "drive"
+    "back": "drive",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "στάθηκε",
-    "back": "stood"
+    "back": "stood",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "περιέχουν",
-    "back": "contain"
+    "back": "contain",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μπροστά",
-    "back": "front"
+    "back": "front",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "διδάξουν",
-    "back": "teach"
+    "back": "teach",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "εβδομάδα",
-    "back": "week"
+    "back": "week",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "τελικό",
-    "back": "final"
+    "back": "final",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έδωσε",
-    "back": "gave"
+    "back": "gave",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πράσινος",
-    "back": "green"
+    "back": "green",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "αμάν",
-    "back": "oh"
+    "back": "oh",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γρήγορα",
-    "back": "quick"
+    "back": "quick",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ανάπτυξη",
-    "back": "develop"
+    "back": "develop",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ωκεανός",
-    "back": "ocean"
+    "back": "ocean",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "ζεστό",
-    "back": "warm"
+    "back": "warm",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "δωρεάν",
-    "back": "free"
+    "back": "free",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λεπτό",
-    "back": "minute"
+    "back": "minute",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "ισχυρή",
-    "back": "strong"
+    "back": "strong",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "ειδικός",
-    "back": "special"
+    "back": "special",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "νου",
-    "back": "mind"
+    "back": "mind",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "πίσω",
-    "back": "behind"
+    "back": "behind",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "σαφής",
-    "back": "clear"
+    "back": "clear",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "ουρά",
-    "back": "tail"
+    "back": "tail",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παράγουν",
-    "back": "produce"
+    "back": "produce",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γεγονός",
-    "back": "fact"
+    "back": "fact",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "χώρο",
-    "back": "space"
+    "back": "space",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ακούσει",
-    "back": "heard"
+    "back": "heard",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καλύτερο",
-    "back": "best"
+    "back": "best",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "ώρα",
-    "back": "hour"
+    "back": "hour",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "καλύτερη",
-    "back": "better"
+    "back": "better",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "αληθής",
-    "back": "true"
+    "back": "true",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "κατά τη διάρκεια της",
-    "back": "during"
+    "back": "during",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "εκατό",
-    "back": "hundred"
+    "back": "hundred",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πέντε",
-    "back": "five"
+    "back": "five",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "θυμηθείτε",
-    "back": "remember"
+    "back": "remember",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "βήμα",
-    "back": "step"
+    "back": "step",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "νωρίς",
-    "back": "early"
+    "back": "early",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "κρατήστε",
-    "back": "hold"
+    "back": "hold",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "δυτικά",
-    "back": "west"
+    "back": "west",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "έδαφος",
-    "back": "ground"
+    "back": "ground",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "ενδιαφέρον",
-    "back": "interest"
+    "back": "interest",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "φτάσουν",
-    "back": "reach"
+    "back": "reach",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "γρήγορα",
-    "back": "fast"
+    "back": "fast",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "ρήμα",
-    "back": "verb"
+    "back": "verb",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τραγουδώ",
-    "back": "sing"
+    "back": "sing",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ακούστε",
-    "back": "listen"
+    "back": "listen",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "έξι",
-    "back": "six"
+    "back": "six",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "τραπέζι",
-    "back": "table"
+    "back": "table",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "ταξίδι",
-    "back": "travel"
+    "back": "travel",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "λιγότερο",
-    "back": "less"
+    "back": "less",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πρωί",
-    "back": "morning"
+    "back": "morning",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "δέκα",
-    "back": "ten"
+    "back": "ten",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "απλό",
-    "back": "simple"
+    "back": "simple",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "αρκετές",
-    "back": "several"
+    "back": "several",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φωνήεν",
-    "back": "vowel"
+    "back": "vowel",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "προς",
-    "back": "toward"
+    "back": "toward",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πόλεμο",
-    "back": "war"
+    "back": "war",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "θέσει",
-    "back": "lay"
+    "back": "lay",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κατά",
-    "back": "against"
+    "back": "against",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μοτίβο",
-    "back": "pattern"
+    "back": "pattern",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αργή",
-    "back": "slow"
+    "back": "slow",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "κέντρο",
-    "back": "center"
+    "back": "center",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "αγάπη",
-    "back": "love"
+    "back": "love",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "πρόσωπο",
-    "back": "person"
+    "back": "person",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "χρήματα",
-    "back": "money"
+    "back": "money",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "εξυπηρετούν",
-    "back": "serve"
+    "back": "serve",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "εμφανίζονται",
-    "back": "appear"
+    "back": "appear",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "δρόμος",
-    "back": "road"
+    "back": "road",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "χάρτης",
-    "back": "map"
+    "back": "map",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "βροχή",
-    "back": "rain"
+    "back": "rain",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "κανόνας",
-    "back": "rule"
+    "back": "rule",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "διέπουν",
-    "back": "govern"
+    "back": "govern",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τραβήξτε",
-    "back": "pull"
+    "back": "pull",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κρύο",
-    "back": "cold"
+    "back": "cold",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "ειδοποίηση",
-    "back": "notice"
+    "back": "notice",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φωνή",
-    "back": "voice"
+    "back": "voice",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ενέργεια",
-    "back": "energy"
+    "back": "energy",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κυνήγι",
-    "back": "hunt"
+    "back": "hunt",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πιθανή",
-    "back": "probable"
+    "back": "probable",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κρεβάτι",
-    "back": "bed"
+    "back": "bed",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "Ο αδελφός",
-    "back": "brother"
+    "back": "brother",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "αυγό",
-    "back": "egg"
+    "back": "egg",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "βόλτα",
-    "back": "ride"
+    "back": "ride",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κυττάρων",
-    "back": "cell"
+    "back": "cell",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πιστεύουμε",
-    "back": "believe"
+    "back": "believe",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "ίσως",
-    "back": "perhaps"
+    "back": "perhaps",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιλέξτε",
-    "back": "pick"
+    "back": "pick",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ξαφνική",
-    "back": "sudden"
+    "back": "sudden",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μετράνε",
-    "back": "count"
+    "back": "count",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πλατεία",
-    "back": "square"
+    "back": "square",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λόγος",
-    "back": "reason"
+    "back": "reason",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "μήκος",
-    "back": "length"
+    "back": "length",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εκπροσωπώ",
-    "back": "represent"
+    "back": "represent",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τέχνη",
-    "back": "art"
+    "back": "art",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "θέμα",
-    "back": "subject"
+    "back": "subject",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "περιοχή",
-    "back": "region"
+    "back": "region",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "μέγεθος",
-    "back": "size"
+    "back": "size",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ποικίλλουν",
-    "back": "vary"
+    "back": "vary",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εγκατασταθούν",
-    "back": "settle"
+    "back": "settle",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μιλούν",
-    "back": "speak"
+    "back": "speak",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "βάρος",
-    "back": "weight"
+    "back": "weight",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γενικές",
-    "back": "general"
+    "back": "general",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πάγος",
-    "back": "ice"
+    "back": "ice",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "θέμα",
-    "back": "matter"
+    "back": "matter",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "κύκλο",
-    "back": "circle"
+    "back": "circle",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ζεύγος",
-    "back": "pair"
+    "back": "pair",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "περιλαμβάνουν",
-    "back": "include"
+    "back": "include",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "χάσματος",
-    "back": "divide"
+    "back": "divide",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συλλαβή",
-    "back": "syllable"
+    "back": "syllable",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αισθάνθηκε",
-    "back": "felt"
+    "back": "felt",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "grand",
-    "back": "grand"
+    "back": "grand",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μπάλα",
-    "back": "ball"
+    "back": "ball",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ακόμη",
-    "back": "yet"
+    "back": "yet",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κύμα",
-    "back": "wave"
+    "back": "wave",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πτώση",
-    "back": "drop"
+    "back": "drop",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "καρδιά",
-    "back": "heart"
+    "back": "heart",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "είμαι",
-    "back": "am"
+    "back": "am",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "παρόν",
-    "back": "present"
+    "back": "present",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βαριά",
-    "back": "heavy"
+    "back": "heavy",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "χορού",
-    "back": "dance"
+    "back": "dance",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κινητήρας",
-    "back": "engine"
+    "back": "engine",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "θέση",
-    "back": "position"
+    "back": "position",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μπράτσο",
-    "back": "arm"
+    "back": "arm",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "ευρύ",
-    "back": "wide"
+    "back": "wide",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "ιστίο",
-    "back": "sail"
+    "back": "sail",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "υλικό",
-    "back": "material"
+    "back": "material",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κλάσμα",
-    "back": "fraction"
+    "back": "fraction",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δάσος",
-    "back": "forest"
+    "back": "forest",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "καθίσει",
-    "back": "sit"
+    "back": "sit",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "φυλή",
-    "back": "race"
+    "back": "race",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παράθυρο",
-    "back": "window"
+    "back": "window",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "κατάστημα",
-    "back": "store"
+    "back": "store",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "καλοκαίρι",
-    "back": "summer"
+    "back": "summer",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "τρένο",
-    "back": "train"
+    "back": "train",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "ύπνου",
-    "back": "sleep"
+    "back": "sleep",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "αποδειχθούν",
-    "back": "prove"
+    "back": "prove",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μοναχικός",
-    "back": "lone"
+    "back": "lone",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πόδι",
-    "back": "leg"
+    "back": "leg",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "άσκηση",
-    "back": "exercise"
+    "back": "exercise",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τοίχο",
-    "back": "wall"
+    "back": "wall",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "σύλληψη",
-    "back": "catch"
+    "back": "catch",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "mount",
-    "back": "mount"
+    "back": "mount",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιθυμούν",
-    "back": "wish"
+    "back": "wish",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "ουρανό",
-    "back": "sky"
+    "back": "sky",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "χαρτόνι",
-    "back": "board"
+    "back": "board",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "χαρά",
-    "back": "joy"
+    "back": "joy",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "χειμώνας",
-    "back": "winter"
+    "back": "winter",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "Σαβ",
-    "back": "sat"
+    "back": "sat",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γραπτή",
-    "back": "written"
+    "back": "written",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "άγρια",
-    "back": "wild"
+    "back": "wild",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "οργάνου",
-    "back": "instrument"
+    "back": "instrument",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φυλάσσονται",
-    "back": "kept"
+    "back": "kept",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ποτήρι",
-    "back": "glass"
+    "back": "glass",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "γρασίδι",
-    "back": "grass"
+    "back": "grass",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "αγελάδα",
-    "back": "cow"
+    "back": "cow",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δουλειά",
-    "back": "job"
+    "back": "job",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "άκρο",
-    "back": "edge"
+    "back": "edge",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πινακίδα",
-    "back": "sign"
+    "back": "sign",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επίσκεψη",
-    "back": "visit"
+    "back": "visit",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "παρελθόν",
-    "back": "past"
+    "back": "past",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "μαλακός",
-    "back": "soft"
+    "back": "soft",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "διασκέδαση",
-    "back": "fun"
+    "back": "fun",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φωτεινό",
-    "back": "bright"
+    "back": "bright",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "αερίου",
-    "back": "gas"
+    "back": "gas",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καιρός",
-    "back": "weather"
+    "back": "weather",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "μήνα",
-    "back": "month"
+    "back": "month",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "εκατομμύρια",
-    "back": "million"
+    "back": "million",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φέρουν",
-    "back": "bear"
+    "back": "bear",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φινίρισμα",
-    "back": "finish"
+    "back": "finish",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "ευτυχισμένος",
-    "back": "happy"
+    "back": "happy",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "ελπίζω",
-    "back": "hope"
+    "back": "hope",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "λουλούδι",
-    "back": "flower"
+    "back": "flower",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "ντύσει",
-    "back": "clothe"
+    "back": "clothe",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παράξενα",
-    "back": "strange"
+    "back": "strange",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φύγει",
-    "back": "gone"
+    "back": "gone",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εμπόριο",
-    "back": "trade"
+    "back": "trade",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "μελωδία",
-    "back": "melody"
+    "back": "melody",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ταξίδι",
-    "back": "trip"
+    "back": "trip",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "γραφείο",
-    "back": "office"
+    "back": "office",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "λαμβάνω",
-    "back": "receive"
+    "back": "receive",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "σειρά",
-    "back": "row"
+    "back": "row",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "το στόμα",
-    "back": "mouth"
+    "back": "mouth",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "ακριβής",
-    "back": "exact"
+    "back": "exact",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σύμβολο",
-    "back": "symbol"
+    "back": "symbol",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πεθαίνω",
-    "back": "die"
+    "back": "die",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "τουλάχιστον",
-    "back": "least"
+    "back": "least",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "πρόβλημα",
-    "back": "trouble"
+    "back": "trouble",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κραυγή",
-    "back": "shout"
+    "back": "shout",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εκτός",
-    "back": "except"
+    "back": "except",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "έγραψε",
-    "back": "wrote"
+    "back": "wrote",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σπόρων",
-    "back": "seed"
+    "back": "seed",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τόνος",
-    "back": "tone"
+    "back": "tone",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ένωση",
-    "back": "join"
+    "back": "join",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "προτείνουν",
-    "back": "suggest"
+    "back": "suggest",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καθαρό",
-    "back": "clean"
+    "back": "clean",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "διάλειμμα",
-    "back": "break"
+    "back": "break",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "η κυρία",
-    "back": "lady"
+    "back": "lady",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αυλή",
-    "back": "yard"
+    "back": "yard",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αυξηθεί",
-    "back": "rise"
+    "back": "rise",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κακό",
-    "back": "bad"
+    "back": "bad",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "χτύπημα",
-    "back": "blow"
+    "back": "blow",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πετρελαίου",
-    "back": "oil"
+    "back": "oil",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αίμα",
-    "back": "blood"
+    "back": "blood",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "αγγίζετε",
-    "back": "touch"
+    "back": "touch",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μεγάλωσε",
-    "back": "grew"
+    "back": "grew",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σεντ",
-    "back": "cent"
+    "back": "cent",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αναμίξτε",
-    "back": "mix"
+    "back": "mix",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "Η ομάδα",
-    "back": "team"
+    "back": "team",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σύρμα",
-    "back": "wire"
+    "back": "wire",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κόστος",
-    "back": "cost"
+    "back": "cost",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "χαμένος",
-    "back": "lost"
+    "back": "lost",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καφέ",
-    "back": "brown"
+    "back": "brown",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "φθορά",
-    "back": "wear"
+    "back": "wear",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κήπο",
-    "back": "garden"
+    "back": "garden",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "ίση",
-    "back": "equal"
+    "back": "equal",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αποστέλλονται",
-    "back": "sent"
+    "back": "sent",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιλέξτε",
-    "back": "choose"
+    "back": "choose",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "έπεσε",
-    "back": "fell"
+    "back": "fell",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ταιριάζει",
-    "back": "fit"
+    "back": "fit",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ροή",
-    "back": "flow"
+    "back": "flow",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δίκαιος",
-    "back": "fair"
+    "back": "fair",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τράπεζα",
-    "back": "bank"
+    "back": "bank",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "συλλέγουν",
-    "back": "collect"
+    "back": "collect",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αποθηκεύσετε",
-    "back": "save"
+    "back": "save",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ελέγχου",
-    "back": "control"
+    "back": "control",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "δεκαδικό",
-    "back": "decimal"
+    "back": "decimal",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αυτί",
-    "back": "ear"
+    "back": "ear",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "άλλος",
-    "back": "else"
+    "back": "else",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αρκετά",
-    "back": "quite"
+    "back": "quite",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έσπασε",
-    "back": "broke"
+    "back": "broke",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "περίπτωση",
-    "back": "case"
+    "back": "case",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "μέση",
-    "back": "middle"
+    "back": "middle",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σκοτώνουν",
-    "back": "kill"
+    "back": "kill",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "Ο γιος",
-    "back": "son"
+    "back": "son",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "λίμνη",
-    "back": "lake"
+    "back": "lake",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "στιγμή",
-    "back": "moment"
+    "back": "moment",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κλίμακα",
-    "back": "scale"
+    "back": "scale",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δυνατά",
-    "back": "loud"
+    "back": "loud",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "άνοιξη",
-    "back": "spring"
+    "back": "spring",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "παρατηρώ",
-    "back": "observe"
+    "back": "observe",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παιδί",
-    "back": "child"
+    "back": "child",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "ευθεία",
-    "back": "straight"
+    "back": "straight",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σύμφωνο",
-    "back": "consonant"
+    "back": "consonant",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έθνος",
-    "back": "nation"
+    "back": "nation",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λεξικό",
-    "back": "dictionary"
+    "back": "dictionary",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γάλα",
-    "back": "milk"
+    "back": "milk",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "ταχύτητα",
-    "back": "speed"
+    "back": "speed",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μέθοδος",
-    "back": "method"
+    "back": "method",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "οργάνου",
-    "back": "organ"
+    "back": "organ",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πληρωμή",
-    "back": "pay"
+    "back": "pay",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "ηλικία",
-    "back": "age"
+    "back": "age",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "τμήμα",
-    "back": "section"
+    "back": "section",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φόρεμα",
-    "back": "dress"
+    "back": "dress",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "cloud",
-    "back": "cloud"
+    "back": "cloud",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "έκπληξη",
-    "back": "surprise"
+    "back": "surprise",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "ήσυχο",
-    "back": "quiet"
+    "back": "quiet",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "πέτρα",
-    "back": "stone"
+    "back": "stone",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "μικροσκοπικός",
-    "back": "tiny"
+    "back": "tiny",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ανάβαση",
-    "back": "climb"
+    "back": "climb",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "δροσερό",
-    "back": "cool"
+    "back": "cool",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "σχεδιασμός",
-    "back": "design"
+    "back": "design",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φτωχός",
-    "back": "poor"
+    "back": "poor",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πολλά",
-    "back": "lot"
+    "back": "lot",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πείραμα",
-    "back": "experiment"
+    "back": "experiment",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κάτω μέρος",
-    "back": "bottom"
+    "back": "bottom",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κλειδί",
-    "back": "key"
+    "back": "key",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "σίδερο",
-    "back": "iron"
+    "back": "iron",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ενιαίου",
-    "back": "single"
+    "back": "single",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ραβδί",
-    "back": "stick"
+    "back": "stick",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επίπεδη",
-    "back": "flat"
+    "back": "flat",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "είκοσι",
-    "back": "twenty"
+    "back": "twenty",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δέρματος",
-    "back": "skin"
+    "back": "skin",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "χαμόγελο",
-    "back": "smile"
+    "back": "smile",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "πτυχή",
-    "back": "crease"
+    "back": "crease",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τρύπα",
-    "back": "hole"
+    "back": "hole",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "άλμα",
-    "back": "jump"
+    "back": "jump",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μωρό",
-    "back": "baby"
+    "back": "baby",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "οκτώ",
-    "back": "eight"
+    "back": "eight",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "χωριό",
-    "back": "village"
+    "back": "village",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "πληρούν",
-    "back": "meet"
+    "back": "meet",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "ρίζα",
-    "back": "root"
+    "back": "root",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αγοράζουν",
-    "back": "buy"
+    "back": "buy",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "αύξηση",
-    "back": "raise"
+    "back": "raise",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιλύσει",
-    "back": "solve"
+    "back": "solve",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μετάλλων",
-    "back": "metal"
+    "back": "metal",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αν",
-    "back": "whether"
+    "back": "whether",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "ώθηση",
-    "back": "push"
+    "back": "push",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "επτά",
-    "back": "seven"
+    "back": "seven",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "παράγραφο",
-    "back": "paragraph"
+    "back": "paragraph",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τρίτο",
-    "back": "third"
+    "back": "third",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "θα",
-    "back": "shall"
+    "back": "shall",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "χειρός",
-    "back": "held"
+    "back": "held",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μαλλιά",
-    "back": "hair"
+    "back": "hair",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "περιγράψει",
-    "back": "describe"
+    "back": "describe",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μάγειρας",
-    "back": "cook"
+    "back": "cook",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "πάτωμα",
-    "back": "floor"
+    "back": "floor",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "είτε",
-    "back": "either"
+    "back": "either",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "αποτέλεσμα",
-    "back": "result"
+    "back": "result",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "έγκαυμα",
-    "back": "burn"
+    "back": "burn",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λόφος",
-    "back": "hill"
+    "back": "hill",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "ασφαλής",
-    "back": "safe"
+    "back": "safe",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γάτα",
-    "back": "cat"
+    "back": "cat",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "αιώνα",
-    "back": "century"
+    "back": "century",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σκεφτείτε",
-    "back": "consider"
+    "back": "consider",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "τύπος",
-    "back": "type"
+    "back": "type",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "του νόμου",
-    "back": "law"
+    "back": "law",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "λίγο",
-    "back": "bit"
+    "back": "bit",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ακτή",
-    "back": "coast"
+    "back": "coast",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "αντίγραφο",
-    "back": "copy"
+    "back": "copy",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φράση",
-    "back": "phrase"
+    "back": "phrase",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σιωπηλή",
-    "back": "silent"
+    "back": "silent",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ψηλός",
-    "back": "tall"
+    "back": "tall",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "άμμου",
-    "back": "sand"
+    "back": "sand",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "χώμα",
-    "back": "soil"
+    "back": "soil",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ρολό",
-    "back": "roll"
+    "back": "roll",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "θερμοκρασία",
-    "back": "temperature"
+    "back": "temperature",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δάχτυλο",
-    "back": "finger"
+    "back": "finger",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "βιομηχανία",
-    "back": "industry"
+    "back": "industry",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "αξία",
-    "back": "value"
+    "back": "value",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αγώνα",
-    "back": "fight"
+    "back": "fight",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "ψέμα",
-    "back": "lie"
+    "back": "lie",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "νικήσει",
-    "back": "beat"
+    "back": "beat",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "διεγείρει",
-    "back": "excite"
+    "back": "excite",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φυσικές",
-    "back": "natural"
+    "back": "natural",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "θέα",
-    "back": "view"
+    "back": "view",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "νόημα",
-    "back": "sense"
+    "back": "sense",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κεφάλαιο",
-    "back": "capital"
+    "back": "capital",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "δεν θα",
-    "back": "won’t"
+    "back": "won’t",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καρέκλα",
-    "back": "chair"
+    "back": "chair",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "κίνδυνο",
-    "back": "danger"
+    "back": "danger",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φρούτα",
-    "back": "fruit"
+    "back": "fruit",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "πλούσιος",
-    "back": "rich"
+    "back": "rich",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παχύ",
-    "back": "thick"
+    "back": "thick",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "στρατιώτης",
-    "back": "soldier"
+    "back": "soldier",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "διαδικασία",
-    "back": "process"
+    "back": "process",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λειτουργούν",
-    "back": "operate"
+    "back": "operate",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πρακτική",
-    "back": "practice"
+    "back": "practice",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ξεχωριστός",
-    "back": "separate"
+    "back": "separate",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δύσκολο",
-    "back": "difficult"
+    "back": "difficult",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "γιατρός",
-    "back": "doctor"
+    "back": "doctor",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "παρακαλώ",
-    "back": "please"
+    "back": "please",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "προστασία",
-    "back": "protect"
+    "back": "protect",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "το μεσημέρι",
-    "back": "noon"
+    "back": "noon",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καλλιέργεια",
-    "back": "crop"
+    "back": "crop",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σύγχρονος",
-    "back": "modern"
+    "back": "modern",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "στοιχείο",
-    "back": "element"
+    "back": "element",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "χτύπημα",
-    "back": "hit"
+    "back": "hit",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "φοιτητής",
-    "back": "student"
+    "back": "student",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "γωνία",
-    "back": "corner"
+    "back": "corner",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "κόμμα",
-    "back": "party"
+    "back": "party",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "προμήθεια",
-    "back": "supply"
+    "back": "supply",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "των οποίων",
-    "back": "whose"
+    "back": "whose",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "εντοπίσετε",
-    "back": "locate"
+    "back": "locate",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δαχτυλίδι",
-    "back": "ring"
+    "back": "ring",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "χαρακτήρας",
-    "back": "character"
+    "back": "character",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έντομο",
-    "back": "insect"
+    "back": "insect",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "αλιεύονται",
-    "back": "caught"
+    "back": "caught",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "περίοδο",
-    "back": "period"
+    "back": "period",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "υποδεικνύουν",
-    "back": "indicate"
+    "back": "indicate",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ράδιο",
-    "back": "radio"
+    "back": "radio",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μίλησε",
-    "back": "spoke"
+    "back": "spoke",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "άτομο",
-    "back": "atom"
+    "back": "atom",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ανθρώπινη",
-    "back": "human"
+    "back": "human",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "ιστορία",
-    "back": "history"
+    "back": "history",
+    "keywords": [
+      "education"
+    ]
   },
   {
     "front": "επίδραση",
-    "back": "effect"
+    "back": "effect",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "ηλεκτρικός",
-    "back": "electric"
+    "back": "electric",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αναμένω",
-    "back": "expect"
+    "back": "expect",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "των οστών",
-    "back": "bone"
+    "back": "bone",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "σιδηροδρομικές",
-    "back": "rail"
+    "back": "rail",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φανταστείτε",
-    "back": "imagine"
+    "back": "imagine",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παρέχουν",
-    "back": "provide"
+    "back": "provide",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "συμφωνώ",
-    "back": "agree"
+    "back": "agree",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έτσι",
-    "back": "thus"
+    "back": "thus",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ευγενής",
-    "back": "gentle"
+    "back": "gentle",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γυναίκα",
-    "back": "woman"
+    "back": "woman",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "καπετάνιος",
-    "back": "captain"
+    "back": "captain",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "υποθέτω",
-    "back": "guess"
+    "back": "guess",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "απαραίτητο",
-    "back": "necessary"
+    "back": "necessary",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "αιχμηρός",
-    "back": "sharp"
+    "back": "sharp",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φτερό",
-    "back": "wing"
+    "back": "wing",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δημιουργήσετε",
-    "back": "create"
+    "back": "create",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "γείτονας",
-    "back": "neighbor"
+    "back": "neighbor",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "πλύση",
-    "back": "wash"
+    "back": "wash",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ρόπαλο",
-    "back": "bat"
+    "back": "bat",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μάλλον",
-    "back": "rather"
+    "back": "rather",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πλήθος",
-    "back": "crowd"
+    "back": "crowd",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καλαμπόκι",
-    "back": "corn"
+    "back": "corn",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συγκρίνετε",
-    "back": "compare"
+    "back": "compare",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ποίημα",
-    "back": "poem"
+    "back": "poem",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κορδόνι",
-    "back": "string"
+    "back": "string",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κουδούνι",
-    "back": "bell"
+    "back": "bell",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εξαρτηθεί",
-    "back": "depend"
+    "back": "depend",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κρέας",
-    "back": "meat"
+    "back": "meat",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "τρίψιμο",
-    "back": "rub"
+    "back": "rub",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σωλήνα",
-    "back": "tube"
+    "back": "tube",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "διάσημος",
-    "back": "famous"
+    "back": "famous",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δολάριο",
-    "back": "dollar"
+    "back": "dollar",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ρεύμα",
-    "back": "stream"
+    "back": "stream",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φόβος",
-    "back": "fear"
+    "back": "fear",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "όραση",
-    "back": "sight"
+    "back": "sight",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λεπτός",
-    "back": "thin"
+    "back": "thin",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "τρίγωνο",
-    "back": "triangle"
+    "back": "triangle",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πλανήτης",
-    "back": "planet"
+    "back": "planet",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βιασύνη",
-    "back": "hurry"
+    "back": "hurry",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επικεφαλής",
-    "back": "chief"
+    "back": "chief",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αποικία",
-    "back": "colony"
+    "back": "colony",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ρολόι",
-    "back": "clock"
+    "back": "clock",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "ορυχείο",
-    "back": "mine"
+    "back": "mine",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γραβάτα",
-    "back": "tie"
+    "back": "tie",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εισάγετε",
-    "back": "enter"
+    "back": "enter",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "μεγάλες",
-    "back": "major"
+    "back": "major",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φρέσκο",
-    "back": "fresh"
+    "back": "fresh",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αναζήτηση",
-    "back": "search"
+    "back": "search",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "στείλετε",
-    "back": "send"
+    "back": "send",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κίτρινο",
-    "back": "yellow"
+    "back": "yellow",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "όπλο",
-    "back": "gun"
+    "back": "gun",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιτρέπουν",
-    "back": "allow"
+    "back": "allow",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αποτύπωμα",
-    "back": "print"
+    "back": "print",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "νεκρός",
-    "back": "dead"
+    "back": "dead",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σημείο",
-    "back": "spot"
+    "back": "spot",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "έρημο",
-    "back": "desert"
+    "back": "desert",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "κοστούμι",
-    "back": "suit"
+    "back": "suit",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ρεύμα",
-    "back": "current"
+    "back": "current",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ανελκυστήρα",
-    "back": "lift"
+    "back": "lift",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "τριαντάφυλλο",
-    "back": "rose"
+    "back": "rose",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φτάσετε",
-    "back": "arrive"
+    "back": "arrive",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "κύριος",
-    "back": "master"
+    "back": "master",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κομμάτι",
-    "back": "track"
+    "back": "track",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μητρική εταιρεία",
-    "back": "parent"
+    "back": "parent",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "ακτή",
-    "back": "shore"
+    "back": "shore",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "διαίρεση",
-    "back": "division"
+    "back": "division",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φύλλο",
-    "back": "sheet"
+    "back": "sheet",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ουσία",
-    "back": "substance"
+    "back": "substance",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ευνοούν",
-    "back": "favor"
+    "back": "favor",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συνδεθείτε",
-    "back": "connect"
+    "back": "connect",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μετά",
-    "back": "post"
+    "back": "post",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ξοδεύουν",
-    "back": "spend"
+    "back": "spend",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "χορδή",
-    "back": "chord"
+    "back": "chord",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λίπος",
-    "back": "fat"
+    "back": "fat",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ευτυχής",
-    "back": "glad"
+    "back": "glad",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πρωτότυπο",
-    "back": "original"
+    "back": "original",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μετοχή",
-    "back": "share"
+    "back": "share",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σταθμός",
-    "back": "station"
+    "back": "station",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "μπαμπάς",
-    "back": "dad"
+    "back": "dad",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ψωμί",
-    "back": "bread"
+    "back": "bread",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "χρεώνουν",
-    "back": "charge"
+    "back": "charge",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κατάλληλος",
-    "back": "proper"
+    "back": "proper",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μπαρ",
-    "back": "bar"
+    "back": "bar",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "προσφορά",
-    "back": "offer"
+    "back": "offer",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "τμήμα",
-    "back": "segment"
+    "back": "segment",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δούλος",
-    "back": "slave"
+    "back": "slave",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πάπια",
-    "back": "duck"
+    "back": "duck",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "στιγμιαία",
-    "back": "instant"
+    "back": "instant",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αγορά",
-    "back": "market"
+    "back": "market",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "βαθμό",
-    "back": "degree"
+    "back": "degree",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συμπληρώσετε",
-    "back": "populate"
+    "back": "populate",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κοτοπουλάκι",
-    "back": "chick"
+    "back": "chick",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αγαπητός",
-    "back": "dear"
+    "back": "dear",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εχθρός",
-    "back": "enemy"
+    "back": "enemy",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "απάντηση",
-    "back": "reply"
+    "back": "reply",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ποτό",
-    "back": "drink"
+    "back": "drink",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "συμβαίνουν",
-    "back": "occur"
+    "back": "occur",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "υποστήριξη",
-    "back": "support"
+    "back": "support",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "ομιλία",
-    "back": "speech"
+    "back": "speech",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φύση",
-    "back": "nature"
+    "back": "nature",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εύρος",
-    "back": "range"
+    "back": "range",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ατμού",
-    "back": "steam"
+    "back": "steam",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κίνηση",
-    "back": "motion"
+    "back": "motion",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μονοπάτι",
-    "back": "path"
+    "back": "path",
+    "keywords": [
+      "travel"
+    ]
   },
   {
     "front": "υγρό",
-    "back": "liquid"
+    "back": "liquid",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συνδεθείτε",
-    "back": "log"
+    "back": "log",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σήμαινε",
-    "back": "meant"
+    "back": "meant",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "πηλίκο",
-    "back": "quotient"
+    "back": "quotient",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "δόντια",
-    "back": "teeth"
+    "back": "teeth",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "κέλυφος",
-    "back": "shell"
+    "back": "shell",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λαιμό",
-    "back": "neck"
+    "back": "neck",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "οξυγόνο",
-    "back": "oxygen"
+    "back": "oxygen",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ζάχαρη",
-    "back": "sugar"
+    "back": "sugar",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "θάνατο",
-    "back": "death"
+    "back": "death",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αρκετά",
-    "back": "pretty"
+    "back": "pretty",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιδεξιότητα",
-    "back": "skill"
+    "back": "skill",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γυναίκες",
-    "back": "women"
+    "back": "women",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εποχή",
-    "back": "season"
+    "back": "season",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λύση",
-    "back": "solution"
+    "back": "solution",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μαγνήτη",
-    "back": "magnet"
+    "back": "magnet",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ασήμι",
-    "back": "silver"
+    "back": "silver",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ευχαριστώ",
-    "back": "thank"
+    "back": "thank",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "υποκατάστημα",
-    "back": "branch"
+    "back": "branch",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αγώνα",
-    "back": "match"
+    "back": "match",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επίθημα",
-    "back": "suffix"
+    "back": "suffix",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ιδιαίτερα",
-    "back": "especially"
+    "back": "especially",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σύκο",
-    "back": "fig"
+    "back": "fig",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "φοβισμένος",
-    "back": "afraid"
+    "back": "afraid",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "τεράστια",
-    "back": "huge"
+    "back": "huge",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "αδελφή",
-    "back": "sister"
+    "back": "sister",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "χάλυβας",
-    "back": "steel"
+    "back": "steel",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συζητήσουν",
-    "back": "discuss"
+    "back": "discuss",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "προς τα εμπρός",
-    "back": "forward"
+    "back": "forward",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παρόμοια",
-    "back": "similar"
+    "back": "similar",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καθοδηγήσει",
-    "back": "guide"
+    "back": "guide",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εμπειρία",
-    "back": "experience"
+    "back": "experience",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σκορ",
-    "back": "score"
+    "back": "score",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μήλο",
-    "back": "apple"
+    "back": "apple",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "αγόρασε",
-    "back": "bought"
+    "back": "bought",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "οδήγησε",
-    "back": "led"
+    "back": "led",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γήπεδο",
-    "back": "pitch"
+    "back": "pitch",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "παλτό",
-    "back": "coat"
+    "back": "coat",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "μάζα",
-    "back": "mass"
+    "back": "mass",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κάρτα",
-    "back": "card"
+    "back": "card",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "band",
-    "back": "band"
+    "back": "band",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "σκοινί",
-    "back": "rope"
+    "back": "rope",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ολίσθησης",
-    "back": "slip"
+    "back": "slip",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "Νίκη",
-    "back": "win"
+    "back": "win",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "όνειρο",
-    "back": "dream"
+    "back": "dream",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "βράδυ",
-    "back": "evening"
+    "back": "evening",
+    "keywords": [
+      "time"
+    ]
   },
   {
     "front": "κατάσταση",
-    "back": "condition"
+    "back": "condition",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ζωοτροφές",
-    "back": "feed"
+    "back": "feed",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εργαλείο",
-    "back": "tool"
+    "back": "tool",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "σύνολο",
-    "back": "total"
+    "back": "total",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βασικός",
-    "back": "basic"
+    "back": "basic",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μυρωδιά",
-    "back": "smell"
+    "back": "smell",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κοιλάδα",
-    "back": "valley"
+    "back": "valley",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "ούτε",
-    "back": "nor"
+    "back": "nor",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "διπλό",
-    "back": "double"
+    "back": "double",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κάθισμα",
-    "back": "seat"
+    "back": "seat",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συνεχίσει",
-    "back": "continue"
+    "back": "continue",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "κατηγορία",
-    "back": "block"
+    "back": "block",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "διάγραμμα",
-    "back": "chart"
+    "back": "chart",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καπέλο",
-    "back": "hat"
+    "back": "hat",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "πωλήσει",
-    "back": "sell"
+    "back": "sell",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "επιτυχία",
-    "back": "success"
+    "back": "success",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "Η εταιρεία",
-    "back": "company"
+    "back": "company",
+    "keywords": [
+      "work"
+    ]
   },
   {
     "front": "αφαιρέστε",
-    "back": "subtract"
+    "back": "subtract",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εκδήλωση",
-    "back": "event"
+    "back": "event",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ειδικότερα",
-    "back": "particular"
+    "back": "particular",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συμφωνία",
-    "back": "deal"
+    "back": "deal",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κολύμπι",
-    "back": "swim"
+    "back": "swim",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "όρος",
-    "back": "term"
+    "back": "term",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "απέναντι",
-    "back": "opposite"
+    "back": "opposite",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γυναίκα",
-    "back": "wife"
+    "back": "wife",
+    "keywords": [
+      "people"
+    ]
   },
   {
     "front": "παπούτσι",
-    "back": "shoe"
+    "back": "shoe",
+    "keywords": [
+      "home"
+    ]
   },
   {
     "front": "ώμο",
-    "back": "shoulder"
+    "back": "shoulder",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "διάδοση",
-    "back": "spread"
+    "back": "spread",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κανονίσει",
-    "back": "arrange"
+    "back": "arrange",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "στρατόπεδο",
-    "back": "camp"
+    "back": "camp",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εφεύρουν",
-    "back": "invent"
+    "back": "invent",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "βαμβάκι",
-    "back": "cotton"
+    "back": "cotton",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "γεννημένος",
-    "back": "born"
+    "back": "born",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "καθοριστεί",
-    "back": "determine"
+    "back": "determine",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "λίτρο",
-    "back": "quart"
+    "back": "quart",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "εννέα",
-    "back": "nine"
+    "back": "nine",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "φορτηγό",
-    "back": "truck"
+    "back": "truck",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "θόρυβο",
-    "back": "noise"
+    "back": "noise",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επίπεδο",
-    "back": "level"
+    "back": "level",
+    "keywords": [
+      "daily-life"
+    ]
   },
   {
     "front": "ευκαιρία",
-    "back": "chance"
+    "back": "chance",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "συγκεντρώσει",
-    "back": "gather"
+    "back": "gather",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "κατάστημα",
-    "back": "shop"
+    "back": "shop",
+    "keywords": [
+      "place"
+    ]
   },
   {
     "front": "τέντωμα",
-    "back": "stretch"
+    "back": "stretch",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ρίξει",
-    "back": "throw"
+    "back": "throw",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "λάμψη",
-    "back": "shine"
+    "back": "shine",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "ακίνητα",
-    "back": "property"
+    "back": "property",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "στήλη",
-    "back": "column"
+    "back": "column",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "μόριο",
-    "back": "molecule"
+    "back": "molecule",
+    "keywords": [
+      "core"
+    ]
   },
   {
     "front": "επιλέξτε",
-    "back": "select"
+    "back": "select",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "λάθος",
-    "back": "wrong"
+    "back": "wrong",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "γκρί",
-    "back": "gray"
+    "back": "gray",
+    "keywords": [
+      "nature"
+    ]
   },
   {
     "front": "επανάληψη",
-    "back": "repeat"
+    "back": "repeat",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "απαιτούν",
-    "back": "require"
+    "back": "require",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "ευρύς",
-    "back": "broad"
+    "back": "broad",
+    "keywords": [
+      "description"
+    ]
   },
   {
     "front": "προετοιμασία",
-    "back": "prepare"
+    "back": "prepare",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "αλάτι",
-    "back": "salt"
+    "back": "salt",
+    "keywords": [
+      "food"
+    ]
   },
   {
     "front": "μύτη",
-    "back": "nose"
+    "back": "nose",
+    "keywords": [
+      "body"
+    ]
   },
   {
     "front": "πληθυντικός",
-    "back": "plural"
+    "back": "plural",
+    "keywords": [
+      "grammar"
+    ]
   },
   {
     "front": "οργή",
-    "back": "anger"
+    "back": "anger",
+    "keywords": [
+      "emotion"
+    ]
   },
   {
     "front": "αξίωση",
-    "back": "claim"
+    "back": "claim",
+    "keywords": [
+      "action"
+    ]
   },
   {
     "front": "ήπειρο",
-    "back": "continent"
+    "back": "continent",
+    "keywords": [
+      "place"
+    ]
   }
 ]
